@@ -1,0 +1,47 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block body %}
+  
+  <div id="login-register-container">
+
+    <div class="form-label-container">
+      <!-- <div><img class="logo" src="{% static 'main/assets/logo.svg' %}"></div> -->
+      <div class="text-container">
+        {% if login_or_register == 'login' %}
+          LOGIN:
+        {% else %}
+          REGISTER:
+        {% endif %}
+      </div>
+    </div>
+
+    <form method="post" class="form-container">
+      {% csrf_token %}
+      {% for field in form %}
+      <p class="display-flex">{{ field.label_tag }} {{ field }}</p>
+      {% endfor %}
+
+      <hr>
+
+      <div class="options-container">
+        <button type="submit" class="form-submission-button">
+          {% if login_or_register == 'login' %}
+            LOGIN
+          {% else %}
+            REGISTER
+          {% endif %}
+        </button>
+
+        <div class="authentication-link">
+          {% if login_or_register == 'login' %}
+            <a class="link" href="{% url 'login-register' 'register' %}">Register an account?</a>  
+          {% else %}
+            <a class="link" href="{% url 'login-register' 'login' %}">Login in an existing account?</a>  
+          {% endif %}
+        </div>
+      </div>
+    </form>
+  </div>
+{% endblock %}

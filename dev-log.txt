@@ -1,0 +1,24 @@
+November 8, 2023
+- To update the requirements.txt file run the command "pipenv requirements > requirements.txt"
+- Setup pythonanywhere account
+    - username: binhi  
+    - email: binhi123email@gmail.com 
+    - password: testing321
+
+- setup the django web app (By Custom)
+- git clone the repo using an access token inside the pythonanywhere console
+- created virtual environment inside the project in pythonanywhere
+- Activate this and customize the wsgi
+- the path and source code should be where the manage.py file is located
+- Add the host in settings
+
+November 11, 2023
+- Consider using basic css for the styling to avoid unnessesary complications
+- Added VueJs for the frontend
+- Be sure to add the static path in pythonanywhere
+- run python manage.py collectstatic to collect the css for the admin page
+- When creating a custom user:
+    - update the AUTH_USER_MODEL
+    - Add to the model the updated user model
+    - Run makemigrations for the app 
+    - migrate  

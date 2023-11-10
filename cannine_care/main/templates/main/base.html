@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  {% load static %}
+  {% include "main/head.html" %}
+
+  <title>
+    {% block page_title %}
+      BINHI
+    {% endblock %}
+  </title>
+
+</head>
+
+<body>
+  <div id="binhi-main-container">
+
+    {% block body %}
+      This is base template
+    {% endblock %}
+  
+  </div>
+</body>
