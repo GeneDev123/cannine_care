@@ -1,8 +1,9 @@
 November 8, 2023
 - To update the requirements.txt file run the command "pipenv requirements > requirements.txt"
 - Setup pythonanywhere account
-    - username: binhi  
-    - email: binhi123email@gmail.com 
+    - email username: cannine_care
+    - pythonanywhere username: cannineCare
+    - email: cannineCare123email@gmail.com 
     - password: testing321
 
 - setup the django web app (By Custom)
