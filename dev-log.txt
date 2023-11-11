@@ -23,3 +23,7 @@ November 11, 2023
     - Add to the model the updated user model
     - Run makemigrations for the app 
     - migrate  
+
+November 12, 2023
+- requirements.txt cannot be read inside pythonanywhere. "pipenv requirements > requirements.tx" is it is generated
+- Moving forward, dependencies must be manually pipenv installed inthe production environment.
