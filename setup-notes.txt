@@ -11,13 +11,13 @@ Note: When running the command "manage.py" you must be inside the folder where t
 3. If either of the first step is fails. Add Python and PIP into the "environment variables" and consider researching the internet.
 
 Run the system locally (first time running):
-1. download the latest copy of the system in github "https://github.com/GeneDev123/binhi" The "main" branch typically have the latest update.
+1. download the latest copy of the system in github "https://github.com/GeneDev123/cannine_care" The "main" branch typically have the latest update.
 2. Open the system in the text editor.
 3. Open a command prompt from inside the directory of the project.
 4. type "pip install pipenv"
 5. type "pipenv shell"
 6. type "pipenv install -r requirements.txt"
-7. type "cd binhi" to go inside a folder
+7. type "cd cannine_care" to go inside a folder
 8. type "python manage.py runserver" to start the development server. "http://127.0.0.1:8000/" should be displayed if everything is working properly
 9. Press ctr+c to stop the process
 
@@ -30,7 +30,7 @@ Initialize the database (first time running):
 Run the system (After done with above):
 1. Open the system in the text editor.
 2. Open a command prompt from inside the directory of the project.
-3. type "cd binhi" to go inside a folder
+3. type "cd cannine_care" to go inside a folder
 4. type "python manage.py runserver" to start the development server. "http://127.0.0.1:8000/" should be displayed if everything is working properly
 5. Access the site through the link 
 6. Press ctr+c to stop the process

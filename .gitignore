@@ -6,4 +6,4 @@ Pipfile
 db.sqlite3
 
 # Ignore the migrations
-binhi/main/migrations
+cannine_care/main/migrations
