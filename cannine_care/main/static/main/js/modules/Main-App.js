@@ -3,7 +3,7 @@ class MainApp {
 
   async mainApp() {
     
-    if(document.getElementById("binhi-main-container")){
+    if(document.getElementById("cannine-care-main-container")){
       Vue.createApp({
         delimiters: ['[[', ']]'],
         data(){
@@ -22,7 +22,7 @@ class MainApp {
         },
         methods: {
         }
-      }).mount("#binhi-main-container");
+      }).mount("#cannine-care-main-container");
     }
   }
 }
