@@ -1,0 +1,362 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going",
+                "howdy",
+                "hey",
+                "hi",
+                "undecomposed daylight",
+                "greet",
+                "what 's astir ?",
+                "how personify information_technology get_going"
+            ],
+            "responses": [
+                "hello",
+                "hey!",
+                "what can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "goodbye",
+                "have a good day",
+                "bye",
+                "cao",
+                "see ya",
+                "cya",
+                "see_to_it you posterior",
+                "adios",
+                "cause amp unspoilt mean_solar_day",
+                "good-by",
+                "cao",
+                "see ya"
+            ],
+            "responses": [
+                "have a nice day",
+                "goodbye"
+            ]
+        },
+        {
+            "tag": "polite",
+            "patterns": [
+                "please",
+                "thank you",
+                "excuse me",
+                "pardon me",
+                "thanks",
+                "thanks a lot",
+                "appreciate it",
+                "gracias",
+                "cheers",
+                "thank you very much",
+                "you're welcome"
+            ],
+            "responses": [
+                "you're welcome",
+                "no problem",
+                "my pleasure"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you look nice",
+                "great outfit",
+                "nice to meet you",
+                "cool haircut",
+                "awesome",
+                "you're awesome",
+                "nice job",
+                "well done",
+                "congratulations",
+                "good work"
+            ],
+            "responses": [
+                "thank you!",
+                "you're too kind",
+                "thanks, I appreciate that"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "how's the weather?",
+                "what's the temperature?",
+                "is it hot outside?",
+                "is it cold today?",
+                "what's the forecast?",
+                "how's the weather today?"
+            ],
+            "responses": [
+                "it's sunny and warm",
+                "a bit chilly today",
+                "looks like rain",
+                "nice weather we're having"
+            ]
+        },
+        {
+            "tag": "weekend_plans",
+            "patterns": [
+                "any plans for the weekend?",
+                "doing anything special this weekend?",
+                "weekend plans?",
+                "got any exciting weekend plans?"
+            ],
+            "responses": [
+                "just relaxing at home",
+                "meeting up with friends",
+                "going for a hike",
+                "watching movies"
+            ]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": [
+                "what do you like to do for fun?",
+                "any hobbies?",
+                "favorite pastime?",
+                "what are your interests?"
+            ],
+            "responses": [
+                "I enjoy reading",
+                "love playing video games",
+                "going for long walks",
+                "learning new things"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "tell me a joke",
+                "give me a laugh",
+                "joke time",
+                "got any jokes?"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "What did one ocean say to the other ocean? Nothing, they just waved.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!"
+            ]
+        },
+        {
+            "tag": "trivia",
+            "patterns": [
+                "share some trivia",
+                "tell me something interesting",
+                "give me a fun fact",
+                "random trivia"
+            ],
+            "responses": [
+                "A group of flamingos is called a 'flamboyance.'",
+                "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+                "Bananas are berries, but strawberries aren't."
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "favorite music genre?",
+                "what music do you like?",
+                "any favorite songs?",
+                "recommend me some music"
+            ],
+            "responses": [
+                "I enjoy a bit of everything, but I really like indie rock.",
+                "Lately, I've been into jazz. Do you have any favorite genres?"
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "seen any good movies lately?",
+                "favorite movie genre?",
+                "recommend me a movie",
+                "movie night soon?"
+            ],
+            "responses": [
+                "I recently watched a great sci-fi movie. Have you seen any good films lately?",
+                "I love comedy movies. Any recommendations?"
+            ]
+        },
+        {
+            "tag": "dogs",
+            "patterns": [
+                "tell me about dogs",
+                "dog breeds",
+                "favorite dog breed?",
+                "dog trivia",
+                "dog knowledge",
+                "got any dog jokes?"
+            ],
+            "responses": [
+                "Dogs are amazing! Did you know that there are hundreds of different dog breeds, each with its own unique characteristics?",
+                "Sure, let's talk about dogs! There are various breeds like Labrador Retrievers, German Shepherds, Beagles, and more. What specific information are you interested in?",
+                "Dog trivia time! Here's a fun fact: The Basenji dog is known as the 'barkless dog' because it doesn't bark like other dogs. Instead, it makes a unique yodel-like sound.",
+                "When it comes to dog knowledge, did you know that dogs have an extraordinary sense of smell? They have up to 300 million smell receptors in their noses, compared to about 5 million in humans!",
+                "Alright, how about a dog joke? Why did the dog sit in the shade? Because he didn't want to be a hot dog!"
+            ]
+        },
+        {
+            "tag": "dog_health",
+            "patterns": [
+                "How can I keep my dog healthy?",
+                "Any tips for maintaining a dog's well-being?",
+                "What are common health issues in dogs?",
+                "How often should I take my dog to the vet?"
+            ],
+            "responses": [
+                "Regular exercise and a balanced diet are key to keeping your dog healthy. Make sure to schedule regular vet check-ups too.",
+                "Ensure your dog gets proper nutrition and stays hydrated. Regular walks and playtime contribute to their overall health.",
+                "Common health issues in dogs include fleas, ticks, and dental problems. Regular grooming and dental care can help prevent these.",
+                "It's recommended to take your dog to the vet at least once a year for a check-up. Puppies, seniors, or dogs with health issues may need more frequent visits."
+            ]
+        },
+        {
+            "tag": "dog_toys",
+            "patterns": [
+                "Any recommendations for interactive dog toys?",
+                "What are some good toys for a teething puppy?",
+                "Do you have a favorite type of dog toy?",
+                "How often should I rotate my dog's toys?"
+            ],
+            "responses": [
+                "Interactive toys like puzzle feeders can engage your dog's mind and provide mental stimulation.",
+                "For a teething puppy, consider soft rubber toys that soothe their gums. Frozen toys can also help with teething discomfort.",
+                "I love Kong toys; they're durable and great for keeping dogs entertained. Rope toys are also good for interactive play.",
+                "It's a good idea to rotate your dog's toys every few weeks to keep them interested. Wash toys regularly to maintain cleanliness."
+            ]
+        },    
+        {
+            "tag": "dog_breed_trivia",
+            "patterns": [
+                "Tell me an interesting fact about Golden Retrievers.",
+                "What's unique about Dachshunds?",
+                "Can you share a trivia about Border Collies?",
+                "Any fun facts about Shih Tzus?"
+            ],
+            "responses": [
+                "Golden Retrievers are known for their friendly nature and intelligence. They're often used as guide dogs and in search and rescue missions.",
+                "Dachshunds were originally bred for hunting. Their long bodies and short legs made them well-suited for going into burrows to catch small game.",
+                "Border Collies are considered one of the most intelligent dog breeds. They excel in obedience training and are often used in competitive dog sports.",
+                "Shih Tzus were bred as companion dogs for Chinese royalty. They have a distinctive long, flowing coat and a friendly demeanor."
+            ]
+        },
+        {
+            "tag": "golden_retriever",
+            "patterns": [
+                "Tell me more about Golden Retrievers.",
+                "What are the typical characteristics of Golden Retrievers?",
+                "Recommended activities for Golden Retrievers?"
+            ],
+            "responses": [
+                "Golden Retrievers are known for their friendly and gentle temperament. They are highly intelligent and easy to train.",
+                "Characteristic features of Golden Retrievers include a dense, water-repellent coat and a well-balanced body. They are also known for their friendly expression.",
+                "Golden Retrievers thrive on activities like fetch and swimming. They are energetic and enjoy being part of family activities."
+            ]
+        },
+        {
+            "tag": "dachshund",
+            "patterns": [
+                "Tell me more about Dachshunds.",
+                "What are the characteristics of Dachshunds?",
+                "Any health considerations for Dachshunds?"
+            ],
+            "responses": [
+                "Dachshunds are known for their distinctive long body and short legs. They were originally bred for hunting purposes, especially for going into burrows to catch small game.",
+                "Characteristic features of Dachshunds include a long, muscular body and a bold, confident demeanor. They are also known for their keen sense of smell.",
+                "Due to their unique body shape, Dachshunds may be prone to back problems. It's important to provide them with proper support and regular exercise."
+            ]
+        },
+        {
+            "tag": "border_collie",
+            "patterns": [
+                "Tell me more about Border Collies.",
+                "What are the characteristics of Border Collies?",
+                "Recommended training for Border Collies?"
+            ],
+            "responses": [
+                "Border Collies are highly intelligent and energetic dogs, known for their agility and trainability. They are often used in herding and competitive dog sports.",
+                "Characteristic features of Border Collies include a medium-sized body with a keen, alert expression. They have a double coat that can be short or medium in length.",
+                "Border Collies excel in obedience training and enjoy activities that challenge their intelligence, such as agility courses and problem-solving games."
+            ]
+        },
+        {
+            "tag": "shih_tzu",
+            "patterns": [
+                "Tell me more about Shih Tzus.",
+                "What are the characteristics of Shih Tzus?",
+                "Recommended grooming for Shih Tzus?"
+            ],
+            "responses": [
+                "Shih Tzus are known for their friendly and outgoing personalities. They were originally bred as companion dogs for Chinese royalty.",
+                "Characteristic features of Shih Tzus include a distinctive pushed-in face, a luxurious double coat, and a friendly, dignified expression.",
+                "Shih Tzus require regular grooming due to their long, flowing coat. Daily brushing and periodic baths are essential to keep their coat in good condition."
+            ]
+        },
+        {
+            "tag": "askal",
+            "patterns": [
+                "Tell me more about Askals.",
+                "What are the characteristics of Askals?",
+                "Are Askals good family pets?"
+            ],
+            "responses": [
+                "Askals are Philippine street dogs known for their resilience and adaptability. They are often a mix of various breeds, making each one unique.",
+                "Characteristic features of Askals can vary, but they are generally medium-sized with a short coat. They are known for their loyalty and intelligence.",
+                "Askals can make excellent family pets. They are known for their loyalty and often form strong bonds with their owners."
+            ]
+        },
+        {
+            "tag": "philippine_native_dog",
+            "patterns": [
+                "Tell me more about Philippine native dogs.",
+                "What are the characteristics of native dogs in the Philippines?",
+                "Any special considerations for caring for a native dog?"
+            ],
+            "responses": [
+                "Philippine native dogs are indigenous breeds that have adapted to the local environment over time. They come in various sizes and coat types.",
+                "Characteristic features of native dogs in the Philippines include a sturdy build and a coat suitable for the climate. They are often well-suited to the local conditions.",
+                "Caring for a Philippine native dog involves regular exercise, a balanced diet, and attention to their specific coat needs based on the climate in the region."
+            ]
+        },
+        {
+            "tag": "aspin",
+            "patterns": [
+                "Tell me more about Aspins.",
+                "What are the characteristics of Aspins?",
+                "Any tips for adopting an Aspin?"
+            ],
+            "responses": [
+                "Aspins (Asong Pinoy) are mixed-breed dogs in the Philippines, known for their diverse heritage. They often exhibit a combination of local and foreign breeds.",
+                "Characteristic features of Aspins can vary widely, as they are mixed-breed dogs. They may have unique combinations of coat colors, sizes, and physical traits.",
+                "When adopting an Aspin, consider their individual needs, provide regular veterinary care, and ensure they receive proper nutrition and exercise."
+            ]
+        },
+        {
+            "tag": "pet_owner_concerns",
+            "patterns": [
+                "How do I handle my dog's separation anxiety?",
+                "What should I do if my dog is not eating?",
+                "Any tips for grooming a dog with a thick coat?",
+                "How can I train my dog to be more obedient?"
+            ],
+            "responses": [
+                "To address separation anxiety, try gradually increasing the time you spend away from your dog and provide comforting items, like a favorite toy or blanket.",
+                "If your dog is not eating, it could be due to various reasons. Consult your vet to rule out any health issues and consider offering a variety of nutritious foods.",
+                "Grooming a dog with a thick coat requires regular brushing to prevent matting and reduce shedding. Consider professional grooming for specific coat care needs.",
+                "Obedience training involves consistent commands, positive reinforcement, and patience. Consider enrolling in a training class or working with a professional trainer."
+            ]
+        }
+    ]
+}
