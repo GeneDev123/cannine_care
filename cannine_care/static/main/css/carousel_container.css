@@ -1,0 +1,51 @@
+
+.carousel-inner img {
+  max-width: 100%;
+  height: 700px;
+}
+
+.carousel-inner p{
+  font-size:17px;
+  font-weight: 100;
+}
+
+.carousel-inner h3{
+  font-weight: bold;
+}
+
+.uploaded-media-container .card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-img-container {
+  width: 100%;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 20rem;
+}
+
+.card-text-limit {
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+  content: "Choose an Image";
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 300px; 
+  }
+  .carousel-inner p{
+    font-size:12px;
+  }
+  .card-img {
+    width: 100%;
+  }
+}
