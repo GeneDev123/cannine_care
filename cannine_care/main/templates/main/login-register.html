@@ -2,6 +2,10 @@
 
 {% load static %}
 
+{% block page_specific_styling %}
+  <link rel="stylesheet" href="{% static 'main/css/login_or_register.css' %}">
+{% endblock %}
+
 {% block body %}
   
   <div id="login-register-container">

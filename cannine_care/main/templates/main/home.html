@@ -3,5 +3,43 @@
 {% load static %}
 
 {% block body %}
-  [[ message ]]
+  <div id="home-page">
+
+    <input type='text' value="{% url 'home' %}" id="send-message-var" style="display: none;"></input>
+
+    <div class="chatbot-container">
+      
+      <div class="container-title">
+        Cannine Care Chatbot
+      </div>      
+
+      <div class="chatbot-message-main-container">
+        <div class="message-container">
+
+          <div class="message-display-container">
+            <div class="chatbot-bubble-container">
+              <div class="chatbot-name">
+                Chatbot
+              </div>
+    
+              <div class="chatbot-message">
+                Hi {% if user.username %} {{ user.username }} {% else %} Guest {% endif %}! Go ahead and send me a message!😄
+              </div>
+    
+            </div>  
+          </div>
+          
+          <div class="user-options-container">
+            <form id="user-input-message-form">
+              {% csrf_token %}
+              <input type="text" class="user-input-container" id="user-input" placeholder="Type your message..."></input>
+              <button class="user-message-send-btn" id="user-message-send" type="submit">Send</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
 {% endblock %}

@@ -5,9 +5,12 @@
   {% load static %}
   {% include "main/head.html" %}
 
+  {% block page_specific_styling %}
+  {% endblock %}
+
   <title>
     {% block page_title %}
-      Cannine Care
+      Cannine-Care
     {% endblock %}
   </title>
 
@@ -16,9 +19,82 @@
 <body>
   <div id="cannine-care-main-container">
 
+    <div class="header-container">
+      <div class="header-label-container"> 
+        
+        <div class="header-title-container">
+          <a href="{% url 'home' %}" class="nav-link">Cannine Care</a>
+        </div>
+        
+        {% if user.is_authenticated %}
+          <div class="welcome-user-container">
+            {% if not user.username == '' %} Welcome, {{ user.username }}! {% else %} Welcome, User!{% endif %}
+          </div>
+          <div class="logout-container">
+            <a class="nav-link" href="{% url 'logout' %}">logout</a>
+          </div>
+        {% endif %}
+        
+      </div>      
+      <nav class="navigation-links-containar">
+        <ul class="navigation-menu">
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class="corousel-container">
+      <div class="">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" :class="{'active': carouselIndex == 0}"></li>
+            <li data-target="#myCarousel" data-slide-to="1" :class="{'active': carouselIndex == 1}"></li>
+            <li data-target="#myCarousel" data-slide-to="2" :class="{'active': carouselIndex == 2}"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item" :class="{'active': carouselIndex == 0}">
+              <img src="{% static 'main/assets/dog_1.jpg' %}" class="d-block w-100" alt="Image 1">
+              <div class="carousel-caption">
+                <h3 class="text-lg">Wag more, bark less.</h3>
+                <p class="text-md">"Pawsitively awesome.</p>
+              </div>
+            </div>
+            <div class="carousel-item" :class="{'active': carouselIndex == 1}">
+              <img src="{% static 'main/assets/dog_2.jpg' %}" class="d-block w-100" alt="Image 2">
+              <div class="carousel-caption">
+                <h3 class="text-lg">Live, love, bark.</h3>
+                <p class="text-md">Fur-ever friends.</p>
+              </div>
+            </div>
+            <div class="carousel-item" :class="{'active': carouselIndex == 2}">
+              <img src="{% static 'main/assets/dog_3.jpg' %}" class="d-block w-100" alt="Image 3">
+              <div class="carousel-caption">
+                <h3 class="text-lg">In a dog's world, every day is the best day.</h3>
+                <p class="text-md">Dogs leave paw prints on your heart.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" @click="switchCarouselImg('prev')" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" @click="switchCarouselImg('next')" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
     {% block body %}
       This is base template
     {% endblock %}
-  
+    
+    <footer>
+      <div class="footer-container">    
+        <p>Copyright &copy; 2023</p>
+      </div>
+    </footer>
+    
   </div>
 </body>
