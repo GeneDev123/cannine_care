@@ -43,3 +43,4 @@ Dog asset references
 - added "pipenv install nltk"
 - Updated the requirements
 - Added the BASE_DIR to the views, this is for deployment purposes
+- nltk.download('punkt') is added in the chat.py, this is required in deployment
