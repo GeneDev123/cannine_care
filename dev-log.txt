@@ -27,3 +27,18 @@ November 11, 2023
 November 12, 2023
 - requirements.txt cannot be read inside pythonanywhere. "pipenv requirements > requirements.tx" is it is generated
 - Moving forward, dependencies must be manually pipenv installed inthe production environment.
+
+November 17, 2023
+- Initialized the chatbot
+
+November 24, 2023
+
+Dog asset references
+- https://www.vecteezy.com/free-photos/dog
+- https://paradepets.com/dogs/cutest-dog-breeds
+- https://www.livescience.com/facts-about-dogs
+
+- Added initial chatbot model
+- added "pipenv install tensorlow"
+- added "pipenv install nltk"
+- Updated the requirements
