@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
+from django.conf import settings
 
 from .forms import CustomUserCreationForm, UserUpdateForm
 from .models import CustomUser
@@ -39,11 +40,13 @@ def user_logout(request):
 
 @login_required(login_url='/accounts/login/') 
 def home(request):
+  
+  base_dir = settings.BASE_DIR
   context = {}
 
   # Model and Intents directory
-  chatbot_model_dir = "./main/chatbot-models/chatbot_2023-11-17_20-53-28.h5"
-  intents_dir = "./main/dataset/intents.json"
+  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2023-11-17_20-53-28.h5"
+  intents_dir = str(base_dir) +"/main/dataset/intents.json"
   model_data = chat.initialize_static_chatbot_requirements(chatbot_model_dir, intents_dir)
 
   if request.method == 'GET':

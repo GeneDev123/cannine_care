@@ -42,3 +42,4 @@ Dog asset references
 - added "pipenv install tensorlow"
 - added "pipenv install nltk"
 - Updated the requirements
+- Added the BASE_DIR to the views, this is for deployment purposes
