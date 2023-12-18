@@ -57,7 +57,7 @@ class MainApp {
                   var response = data.response;
                   
                   let userMessage = '<div class="user-bubble-container"><div class="user-name">' + (vueApp.userMessage ? vueApp.userMessage : " Guest ") + '</div><div class="user-message">' + user_input + '</div></div>';     
-                  let chatbotResponse = '<div class="chatbot-bubble-container"><div class="chatbot-name">Chatbot</div><div class="chatbot-message">' + response + '</div></div>';
+                  let chatbotResponse = '<div class="chatbot-bubble-container"><div class="chatbot-name">Cannine Care</div><div class="chatbot-message">' + response + '</div></div>';
                   
                   $('.message-display-container').append(userMessage);
                   $('.message-display-container').append(chatbotResponse);
