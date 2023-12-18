@@ -357,6 +357,265 @@
                 "Grooming a dog with a thick coat requires regular brushing to prevent matting and reduce shedding. Consider professional grooming for specific coat care needs.",
                 "Obedience training involves consistent commands, positive reinforcement, and patience. Consider enrolling in a training class or working with a professional trainer."
             ]
+        },
+        {
+            "tag": "lethargy",
+            "patterns": [
+                "Dog seems lethargic. Why?",
+                "Is fatigue normal in dogs?",
+                "Why is my dog so tired?",
+                "I think my dog might have a fever; he's shivering and feels warm.",
+                "Dizzy or tired?"
+            ],
+            "responses": [
+                "Lethargy can have various causes. It's advisable to consult with a veterinarian for a proper examination. In the meantime, ensure your dog has a comfortable and quiet resting place.",
+                "While dogs may have occasional tiredness, persistent fatigue could signal an issue. Consider consulting a vet for a thorough evaluation. Ensure your dog is getting proper nutrition and hydration.",
+                "Fatigue in dogs can stem from various factors. It's recommended to seek professional advice from a vet. Ensure your dog is on a balanced diet and has a suitable exercise routine.",
+                "If your dog is exhibiting signs of dizziness or tiredness, it's crucial to consult with a veterinarian promptly. Ensure a safe environment for your dog and avoid strenuous activities."
+            ]
+        },
+        {
+            "tag": "inappetance",
+            "patterns": [
+                "Dog not eating. Why?",
+                "Lack of appetite in dogs?",
+                "How to address inappetance?",
+                "No appetite in my dog?"
+            ],
+            "responses": [
+                "Inappetance in dogs can be caused by various factors. It's essential to consult with a vet to determine the underlying cause. In the meantime, monitor your dog's water intake and consider offering a bland diet.",
+                "A reduced appetite may be due to multiple reasons. Professional advice from a vet is recommended. Ensure your dog's food is fresh, and consider offering smaller, more frequent meals.",
+                "Consult with a veterinarian to identify the cause of inappetance. In the meantime, try offering a variety of palatable foods, ensure a quiet eating environment, and monitor for any additional symptoms.",
+                "Persistent lack of appetite requires attention. Consult with a vet to rule out underlying issues. Ensure your dog is hydrated and consider offering easily digestible foods."
+            ]
+        },
+        {
+            "tag": "fever",
+            "patterns": [
+                "Dog has a fever. What to do?",
+                "Shivering in dogs. Concerning?",
+                "Symptoms of pyrexia in dogs?",
+                "High temperature in my dog?"
+            ],
+            "responses": [
+                "Elevated temperature in dogs may indicate an underlying issue. Consult with a veterinarian promptly. Keep your dog comfortable, and avoid excessive physical activity.",
+                "Shivering, along with a fever, can be indicative of various conditions. Seek professional advice from a vet. Provide a warm and quiet place for your dog to rest.",
+                "Pyrexia or fever may have multiple causes. Consult with a vet for a proper diagnosis. Monitor your dog's temperature and ensure they stay well-hydrated.",
+                "An elevated temperature warrants attention. Consult with a vet to determine the cause. Keep your dog cool, provide access to water, and avoid strenuous activities."
+            ]
+        },
+        {
+            "tag": "pale_gums",
+            "patterns": [
+                "Pale gums in dogs. Problem?",
+                "Oral health issues in dogs?",
+                "Leukoplakia in dogs?",
+                "Any issues with mouth or teeth?"
+            ],
+            "responses": [
+                "Pale gums can be a sign of various issues. Consult with a veterinarian for a thorough examination. Ensure your dog's gums return to a healthy pink color, and monitor for other symptoms.",
+                "Changes in oral health should be assessed by a vet. Ensure your dog has regular dental check-ups and provide appropriate dental care. Monitor for any signs of discomfort or difficulty eating.",
+                "Leukoplakia is a condition that requires professional evaluation. Consult with a vet for a proper diagnosis. Maintain good oral hygiene for your dog and monitor for any changes.",
+                "Changes in the mouth or teeth should be examined by a vet. Ensure regular dental care and monitor for signs of pain or difficulty eating. Consult with a vet for a proper assessment."
+            ]
+        },        
+        {
+            "tag": "nose_bleed",
+            "patterns": [
+                "Dog nosebleed. Cause?",
+                "Should I worry about bleeding?",
+                "Nose bleed in dogs common?",
+                "Any issues with bleeding?"
+            ],
+            "responses": [
+                "Nosebleeds in dogs can have various causes. Consult with a vet to identify the underlying issue. Keep your dog calm and avoid nose manipulation. Monitor for any recurrence.",
+                "Nosebleeds may or may not be a cause for concern. It's essential to consult with a vet for a proper evaluation. Keep your dog calm and avoid exposing them to potential irritants.",
+                "While nosebleeds are not uncommon, the cause should be determined by a vet. Ensure your dog is in a stress-free environment and seek professional advice for further guidance.",
+                "Unexplained bleeding requires attention. Consult with a vet to identify the cause. Keep the affected area clean and apply gentle pressure. Avoid giving any medications without professional advice."
+            ]
+        },
+        {
+            "tag": "eyes_issues",
+            "patterns": [
+                "Cloudy eyes in dogs. Why?",
+                "Dog's blurred vision. Help?",
+                "Hazy eyes in dogs?",
+                "Faggy or blurred vision?"
+            ],
+            "responses": [
+                "Cloudy eyes may indicate an underlying issue. Consult with a vet for a thorough eye examination. Ensure a clean environment and avoid exposing your dog to potential eye irritants.",
+                "Blurred vision in dogs should be assessed by a vet. Avoid exposing your dog to bright lights and consult with a professional for guidance. Keep the environment safe to prevent injuries.",
+                "Hazy eyes may be a sign of an eye problem. Consult with a vet for a proper diagnosis. Ensure a clean environment and avoid any substances that may irritate the eyes.",
+                "Any signs of fogginess or blurred vision in dogs require a vet's attention. Avoid exposing your dog to potential eye irritants and consult with a professional for a thorough examination."
+            ]
+        },
+        {
+            "tag": "bruise",
+            "patterns": [
+                "Dog bruising. Serious?",
+                "Causes of bruising in dogs?",
+                "How to treat dog bruises?",
+                "Any concerns with bruises?"
+            ],
+            "responses": [
+                "Bruising in dogs should be examined by a vet. Avoid touching or pressing on the bruised area. Consult with a professional to determine the cause and appropriate care.",
+                "Various factors can cause bruising in dogs. Consult with a vet to identify the underlying issue. Avoid activities that may cause additional trauma, and monitor for changes in behavior.",
+                "Treatment for dog bruises depends on the underlying cause. Consult with a vet for guidance. Avoid applying any topical treatments without professional advice. Monitor for any signs of discomfort.",
+                "Bruises in dogs warrant attention. Consult with a vet for a proper examination. Avoid activities that may cause further trauma, and ensure a safe environment for your dog."
+            ]
+        },
+        {
+            "tag": "panting",
+            "patterns": [
+                "Dog panting. Normal?",
+                "Wheezing in dogs. Concerns?",
+                "Breathing problems in dogs?"
+            ],
+            "responses": [
+                "While panting is normal, excessive panting may signal an issue. Consult with a vet to rule out underlying problems. Keep your dog cool, hydrated, and avoid strenuous activities.",
+                "Persistent wheezing should be evaluated by a vet. Avoid exposure to irritants and consult with a professional for a thorough examination. Ensure a calm environment for your dog.",
+                "Any signs of breathing difficulties require prompt attention."
+            ]
+        },
+        {
+            "tag": "IntestinalParasitism",
+            "patterns": [
+              "My dog has diarrhea and seems to be pooping frequently.",
+              "I've noticed lethargy and tiredness in my dog. Could it be related to something?",
+              "My dog has a lack of appetite and doesn't seem interested in food.",
+              "I'm concerned about pale gums and changes in my dog's oral health.",
+              "My dog has been vomiting and seems to be unwell.",
+              "I'm worried about the possibility of worms in my dog's stool.",
+              "My dog's belly appears bloated and swollen.",
+              "Dog diarrhea, frequent pooping.",
+              "Lethargy and tiredness in my dog. What's the cause?",
+              "My dog lacks appetite and isn't interested in food.",
+              "Concerned about pale gums and changes in oral health.",
+              "Dog vomiting and seems unwell.",
+              "Worried about worms in my dog's stool.",
+              "Dog's belly looks bloated and swollen.",
+              "Dog has frequent diarrhea.",
+              "Why is my dog lethargic and tired?",
+              "My dog won't eat. Any ideas?",
+              "Concerned about changes in oral health.",
+              "My dog vomits and looks unwell.",
+              "Worried about worms in my dog's stool.",
+              "Dog's belly is bloated and swollen."
+            ],
+            "responses": [
+              "I believe your dog may be showing symptoms of intestinal parasitism, such as diarrhea, lethargy, or changes in appetite. It's crucial to contact a veterinarian immediately. To determine the presence of specific parasites, the vet will conduct fecal testing. Ensure your dog eats a healthy, well-balanced diet to maintain their general wellbeing. Hydration is important, especially if your dog has diarrhea.",
+              "I'm sorry to hear about your dog's symptoms. It's important to consult with a veterinarian as these could be signs of intestinal parasitism. The vet will conduct fecal testing to identify specific parasites. In the meantime, ensure your dog is well-hydrated and continues to eat a healthy diet.",
+              "The symptoms you've described, such as a lack of appetite and lethargy, could be related to intestinal parasitism. I recommend reaching out to a veterinarian for a proper diagnosis. The vet may conduct fecal testing to identify the specific parasites affecting your dog. Ensure your dog has access to fresh water and a balanced diet.",
+              "Changes in oral health and pale gums can be associated with intestinal parasitism. Please consult with a veterinarian for a thorough examination and fecal testing. It's important to address these symptoms promptly. Ensure your dog has a proper diet and stays hydrated.",
+              "Vomiting in dogs can be a sign of various issues, including intestinal parasitism. It's essential to contact a vet for a proper diagnosis. The vet may recommend fecal testing to identify specific parasites. In the meantime, monitor your dog's condition and ensure they have access to water.",
+              "The presence of worms in your dog's stool can indicate intestinal parasitism. Contact a veterinarian for a thorough examination and fecal testing. The vet will prescribe the appropriate deworming medicine based on the type of parasites found. Ensure your dog continues to eat a healthy diet and stays hydrated.",
+              "A bloated and swollen belly can be indicative of intestinal parasitism. I recommend consulting with a veterinarian for a proper diagnosis. The vet may conduct fecal testing to identify specific parasites. Follow the vet's advice on deworming medicine and ensure your dog maintains a healthy diet."
+            ]
+        },
+        {
+            "tag": "Vector-BorneDiseases",
+            "patterns": [
+              "My dog is showing signs of lethargy and dizziness. What could be the cause?",
+              "I've noticed a lack of appetite in my dog. Is this a concerning symptom?",
+              "My dog has a high temperature and seems to be shivering. Could it be a fever?",
+              "The gums in my dog's mouth appear pale. Should I be worried?",
+              "I observed nose bleeding in my dog. What could be the reason?",
+              "My dog's eyes seem cloudy, and there's a bit of blurred vision. Is this normal?",
+              "I've noticed bruising on my dog. Should I seek immediate attention?",
+              "My dog is panting and wheezing. Is this a cause for concern?",
+              "Dog shows lethargy and dizziness. Possible cause?",
+              "Lack of appetite in my dog. Is this concerning?",
+              "Dog has a high temperature and shivers. Could it be a fever?",
+              "Gums in my dog's mouth appear pale. Should I be worried?",
+              "Observed nose bleeding in my dog. What could be the reason?",
+              "Dog's eyes seem cloudy with blurred vision. Is this normal?",
+              "Noticed bruising on my dog. Immediate attention needed?",
+              "Dog is panting and wheezing. Cause for concern?",
+              "Why is my dog lethargic and dizzy?",
+              "My dog lacks appetite. Is it concerning?",
+              "Dog has a high temperature and shivers. Fever?",
+              "Gums in my dog's mouth look pale. Concerning?",
+              "Observed nose bleeding in my dog. Reasons?",
+              "Dog's eyes seem cloudy with blurred vision. Normal?",
+              "Noticed bruising on my dog. Immediate attention?",
+              "Dog is panting and wheezing. Concerning?"
+            ],
+            "responses": [
+              "I believe your dog may be exhibiting symptoms of a vector-borne disease like ehrlichiosis. It's crucial to consult with a veterinarian promptly for a proper diagnosis. They can suggest an effective treatment plan tailored to your dog's needs. Ensure your dog gets sufficient rest, stays well-hydrated, and follow the veterinarian's advice on over-the-counter medications if recommended.",
+              "A lack of appetite in dogs could be a symptom of ehrlichiosis. It's important to promptly consult with a veterinarian for a thorough examination. The vet can diagnose the condition and suggest an appropriate treatment plan. Ensure your dog stays well-hydrated and follows any recommendations from the vet.",
+              "The combination of a high temperature and shivering could indicate fever, possibly related to ehrlichiosis. I recommend consulting with a veterinarian promptly for a proper diagnosis. The vet can suggest a tailored treatment plan. Ensure your dog gets enough rest and stays well-hydrated.",
+              "Pale gums may be a sign of ehrlichiosis or other health issues. It's crucial to consult with a veterinarian for a thorough examination and diagnosis. The vet can recommend an appropriate treatment plan. Ensure your dog maintains good oral hygiene and follows the vet's guidance.",
+              "Nose bleeding in dogs can be a concerning symptom. I recommend consulting with a veterinarian promptly for a proper diagnosis, especially considering the possibility of ehrlichiosis. Follow the vet's advice on treatment and ensure your dog is in a calm environment.",
+              "Cloudy eyes and blurred vision in dogs should be addressed promptly. Consult with a veterinarian for a thorough examination, considering the possibility of ehrlichiosis. The vet can recommend a treatment plan. Ensure your dog's eyes are kept clean, and follow the vet's guidance.",
+              "Bruising in dogs is not normal and could be related to ehrlichiosis. I recommend seeking immediate attention from a veterinarian for a proper diagnosis and treatment plan. Follow the vet's advice on care and ensure your dog is in a safe environment.",
+              "Panting and wheezing in dogs may be related to ehrlichiosis. It's crucial to consult with a veterinarian promptly for a thorough examination. The vet can recommend a treatment plan. Ensure your dog stays cool and hydrated, following the vet's guidance."
+            ]
+        },
+        {
+            "tag": "EyeUlcerationCloudiness",
+            "patterns": [
+              "My dog has eye cloudiness and hazy vision. What could be the issue?",
+              "I've noticed my dog's eyes seem reddish and irritated. Is this a cause for concern?",
+              "My dog has inflamed eyelids and watery eyes. What might be the problem?",
+              "Dog has cloudy eyes and hazy vision. Any ideas?",
+              "My dog's eyes seem reddish and irritated. Concerning?",
+              "Dog has inflamed eyelids and watery eyes. What's the problem?"
+            ],
+            "responses": [
+              "Your dog may be experiencing eye ulceration and cloudiness. It's crucial to protect their eyes to prevent rubbing or scratching. Consider using a cone, like an Elizabethan collar. Eye problems can escalate quickly, so it's important to take your dog to the vet as soon as possible. Postponing medical intervention may lead to further complications and worsen the condition.",
+              "Reddish eyes and eye irritation could be signs of eye ulceration and cloudiness. It's important to consult with a veterinarian promptly for a thorough eye examination. Use a cone, such as an Elizabethan collar, to prevent your dog from rubbing their eyes. Delaying veterinary care may result in worsening of the condition.",
+              "Inflamed eyelids and watery eyes may indicate eye ulceration and cloudiness. To protect your dog's eyes, consider using a cone, like an Elizabethan collar. Consult with a vet as soon as possible for a proper diagnosis and treatment plan. Delaying veterinary care may lead to further complications."
+            ]
+        },
+        {
+            "tag": "DemodecticMange",
+            "patterns": [
+              "My dog is constantly itching and seems irritated. What could be the issue?",
+              "I've noticed reddish skin and breakout spots on my dog. Is this a cause for concern?",
+              "My dog is experiencing hair loss and bald patches. What might be the problem?",
+              "I'm concerned about the possibility of a bacterial infection in my dog.",
+              "Dog is constantly itching and seems irritated. What could be the issue?",
+              "Noticed reddish skin and breakout spots on my dog. Cause for concern?",
+              "Dog is experiencing hair loss and bald patches. What might be the problem?",
+              "Concerned about a possible bacterial infection in my dog.",
+              "Dog constantly itches. Any ideas?",
+              "Noticed reddish skin and breakout spots. Concerning?",
+              "Dog experiences hair loss and bald patches. What's wrong?",
+              "Concerned about a potential bacterial infection."
+            ],
+            "responses": [
+              "I believe your dog may be suffering from Demodectic Mange. It's crucial to see a veterinarian for a proper diagnosis. The vet can confirm the presence of Demodex mites through skin scrapings or other diagnostic procedures. Breeding dogs with a history of demodicosis is not advised due to the genetic component, reducing the likelihood of passing on the ailment.",
+              "Reddish skin, rashes, and breakout spots could be indicative of Demodectic Mange. It's important to consult with a veterinarian for a thorough examination. The vet can confirm the presence of Demodex mites and recommend an appropriate treatment plan. Avoid breeding dogs with a history of demodicosis to prevent its genetic transmission.",
+              "Hair loss and bald patches in dogs may be signs of Demodectic Mange. Consult with a vet for a proper diagnosis. The vet can confirm the presence of Demodex mites and recommend a suitable treatment plan. It's essential to avoid breeding dogs with a history of demodicosis due to its genetic component.",
+              "If you're concerned about a bacterial infection in your dog, it's crucial to consult with a veterinarian. The vet can assess the situation and recommend appropriate diagnostic tests and treatments. Prompt veterinary care is important to address any potential infections and ensure your dog's well-being."
+            ]
+        },
+        {
+            "tag": "SarcopticMange",
+            "patterns": [
+              "My dog has scaly and flaky skin. What could be causing this?",
+              "My dog is constantly itching and seems irritated. Could it be a skin issue?",
+              "I've noticed reddish skin, rashes, and breakout spots on my dog. What might be the problem?",
+              "My dog is experiencing hair loss and baldness. Is this a cause for concern?",
+              "I'm worried about my dog appearing emaciated and thin. Could it be a health issue?",
+              "Dog has scaly and flaky skin. What could be causing this?",
+              "Dog is constantly itching and seems irritated. Could it be a skin issue?",
+              "Noticed reddish skin, rashes, and breakout spots on my dog. What might be the problem?",
+              "Dog is experiencing hair loss and baldness. Cause for concern?",
+              "Worried about my dog appearing emaciated and thin. Could it be a health issue?",
+              "Dog has scaly and flaky skin. Any ideas?",
+              "Dog constantly itches. Could it be a skin issue?",
+              "Noticed reddish skin, rashes, and breakout spots. Any thoughts?",
+              "Dog experiences hair loss and baldness. Concerning?",
+              "Worried about my dog appearing emaciated and thin. Health issue?"
+            ],
+            "responses": [
+              "I believe your dog may be suffering from Sarcoptic Mange. It's crucial to get in touch with your veterinarian right away for a proper diagnosis. The vet can verify the presence of mites through skin scrapings or other diagnostic procedures. Keep the affected dog away from other animals and people until the mites are completely gone. Ensure a clean and hygienic living area.",
+              "Scaly and flaky skin, along with constant itching, could indicate Sarcoptic Mange. Consult with a veterinarian for a thorough examination. The vet can confirm the presence of mites and recommend an appropriate treatment plan. Keep the affected dog isolated from other animals and people until the mites are completely eliminated.",
+              "Reddish skin, rashes, and breakout spots may be signs of Sarcoptic Mange. It's important to consult with a veterinarian for a proper diagnosis. The vet can confirm the presence of mites and recommend a suitable treatment plan. Ensure the affected dog is kept away from other animals and people until the mites are completely eradicated.",
+              "Hair loss and baldness in dogs may be indicative of Sarcoptic Mange. Consult with a vet for a proper diagnosis. The vet can confirm the presence of mites and recommend an appropriate treatment plan. Keep the affected dog isolated until the mites are completely eliminated.",
+              "If you're worried about your dog appearing emaciated and thin, it could be related to Sarcoptic Mange. Consult with a veterinarian for a thorough examination. The vet can confirm the presence of mites and recommend a suitable treatment plan. Pay attention to the recommended treatment and dosage guidelines. Take preventive measures to protect other pets, as Sarcoptic Mange is highly contagious."
+            ]
         }
     ]
 }
