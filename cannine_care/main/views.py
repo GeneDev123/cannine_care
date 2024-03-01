@@ -65,3 +65,8 @@ def home(request):
       return JsonResponse({'response': chatbot_reply})
   
   return render(request, 'main/home.html', context)
+
+@login_required(login_url='/accounts/login/')
+def ai_page(request):
+  context = {}
+  return render(request, 'main/ai.html', context)
