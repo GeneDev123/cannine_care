@@ -11,6 +11,15 @@ class MainApp {
             username: "",
             sendMessageUrl: "", 
             carouselIndex: 0,
+            trainAIUrl: "",
+            isLoading: false,
+
+            accuracy: "",
+            precision: "",
+            recall: "",
+            f1Score: "",
+            confusionMat: "",
+
           }
         },
         components: {
@@ -20,14 +29,46 @@ class MainApp {
 
         },
         mounted(){
-          this.sendMessageUrl = document.getElementById('send-message-var').value;
+          this.sendMessageUrl = document.getElementById('send-message-var') ? document.getElementById('send-message-var').value : '';
+          this.trainAIUrl = document.getElementById('train-ai-url') ? document.getElementById('train-ai-url').value : '';
 
           let vueApp = this;
           $(document).ready(function() {
-            vueApp.initializeListener('#user-input-message-form');            
+            vueApp.initializeListener('#user-input-message-form');       
+            vueApp.initializeTrainBtn();     
           });
         },
         methods: {
+          initializeTrainBtn(){
+            let vueApp = this;
+            $(document).ready(function() {
+              $('#train-ai-btn').on('click', function() {
+                vueApp.isLoading = true;
+                $.ajax({
+                  url: vueApp.trainAIUrl,
+                  type: 'GET',
+                  success: function(response) {
+                    
+                    setTimeout(function() {
+                      alert('Notice: Model Successfully Trained');
+                      vueApp.isLoading = false;
+                      console.log(response.model_output);
+                      vueApp.accuracy = response.model_output.accuracy;
+                      vueApp.precision = response.model_output.precision;
+                      vueApp.recall = response.model_output.recall;
+                      vueApp.f1Score = response.model_output.f1Score;
+                      vueApp.confusionMat = response.model_output.confusion_mat;
+                      console.log(response.model_output);
+                    }, 2000);
+                  },
+                  error: function(error) {
+                    alert('Notice: Model Training failed');
+                    vueApp.isLoading = false;
+                  }
+                });
+              });
+            });
+          },
           switchCarouselImg(action){
             if(action == 'next'){
               this.carouselIndex = this.carouselIndex === 2 ? 0 : this.carouselIndex + 1;
