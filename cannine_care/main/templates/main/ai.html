@@ -17,15 +17,54 @@
 
       <div class="configuration-main-container">
         <div class="model-information">
+          
+          <input type='text' value="{% url 'train-ai' %}" id="train-ai-url" style="display: none;"></input>
+          <button class="train-ai-btn" id="train-ai-btn" type="submit">TRAIN MODEL</button>
 
-        </div>
-        <div class="model-output">
+          <hr>
+          
+          <div class="model-information-label">
+            Trained Model Information:
+          </div>
+
+          <hr>
+
+          <div class="model-info">
+            <div class="accuracy">Accuracy: [[ accuracy ]]</div>
+            <div class="precision">Precision: [[ precision ]]</div>
+            <div class="recall">Recall: [[ recall ]]</div>
+            <div class="f1-score">F1 Score: [[ f1Score ]]</div>
+            <!-- <div class="confusion-matrix">Confusion Matrix: [[ confusionMat ]]</div> -->
+          </div>
 
         </div>
         <div class="model-files">
+          
+          <div class="model-files-note">
+            Note: In order to apply newly trained AI, it must be manually impelemented in the code.
+          </div>
+          
+          <hr>
+          
+          <div class="chatbot-model-list">
+            <div class="chatbot-model-list-label">
+              Chatbot Models: 
+            </div>
+
+            <hr>
+            <div class="list">
+              {% for file in chatbotModels %}   
+                <li>{{ file }}</li>
+                <hr>
+              {% endfor %}
+            </div>
+          </div>
 
         </div>
 
+        <!-- <div class="model-output">
+          
+        </div> -->
       </div>
 
     </div>
