@@ -69,124 +69,69 @@
             ]
         },
         {
-            "tag": "compliment",
+            "tag": "dog_trivia",
             "patterns": [
-                "you look nice",
-                "great outfit",
-                "nice to meet you",
-                "cool haircut",
-                "awesome",
-                "you're awesome",
-                "nice job",
-                "well done",
-                "congratulations",
-                "good work"
+                "share some dog trivia",
+                "tell me something interesting about dogs",
+                "give me a fun fact about dogs",
+                "random dog trivia"
             ],
             "responses": [
-                "thank you!",
-                "you're too kind",
-                "thanks, I appreciate that"
+                "Dogs are descendants of wolves, with the domestication process believed to have begun around 15,000 years ago.",
+                "The Newfoundland breed has webbed feet, which helps them swim with ease. They are excellent water rescue dogs.",
+                "The world's smallest dog breed is the Chihuahua, named after the Mexican state of Chihuahua. They typically weigh between 2-6 pounds.",
+                "The world's oldest known breed is the Saluki, which dates back to ancient Egypt around 329 B.C.",
+                "Dogs can learn up to 250 words and gestures, making them incredibly intelligent animals.",
+                "The world record for the tallest dog ever is held by a Great Dane named Zeus, who stood at 44 inches tall at the shoulder.",
+                "Dogs have a sense of time and can distinguish between different lengths of time. They can also sense how long you've been gone.",
+                "Dalmatian puppies are born completely white and develop their spots as they grow older.",
+                "The Basenji dog breed, in addition to not barking, is also known for being one of the oldest and most primitive dog breeds.",
+                "Dogs have an extraordinary ability to understand human emotions. They can sense when their owners are sad or happy and often try to comfort them.",
+                "The most popular dog breed in the United States, according to the American Kennel Club, is the Labrador Retriever.",
+                "Dogs have a 'paw preference,' similar to humans being left or right-handed. Studies have shown that about 70-80% of dogs are right-pawed.",
+                "The Afghan Hound is one of the oldest dog breeds in existence, dating back thousands of years to ancient Afghanistan.",
+                "The world's heaviest dog breed is the Mastiff. The heaviest Mastiff on record weighed over 343 pounds.",
+                "Dogs have a specialized membrane in their eyes called the tapetum lucidum, which enhances their night vision.",
+                "The term 'dog days of summer' originates from the ancient Greeks and Romans, who associated the hot summer days with the star Sirius, known as the 'Dog Star.'",
+                "The Irish Wolfhound is one of the tallest dog breeds, standing at an average height of 32-34 inches at the shoulder.",
+                "The Basenji dog breed was originally bred for hunting small game in Africa.",
+                "A dog's sense of smell is so powerful that they can detect certain diseases in humans, such as cancer and diabetes, through their scent.",
+                "The world's oldest known pet cemetery is located in Egypt and dates back to approximately 3700 B.C.",
+                "Dogs have a unique set of muscles around their ears that allow them to rotate and tilt them to better hear sounds.",
+                "Dogs' nose prints are as unique as human fingerprints and can be used to identify them.",
+                "The Pembroke Welsh Corgi is known for its distinctive short legs, which were historically bred to keep them low to the ground to avoid kicks from cattle.",
+                "The Saint Bernard breed is famous for its role as rescue dogs in the Swiss Alps, where they would help locate and rescue travelers trapped in the snow.",
+                "The Shiba Inu is one of the smallest and oldest dog breeds native to Japan.",
+                "Dogs have been used in warfare throughout history, serving as scouts, messengers, and even bomb detectors.",
+                "The Bernese Mountain Dog breed originated in the Swiss Alps and was traditionally used as a farm dog for pulling carts and herding livestock.",
+                "A dog's sense of smell is so acute that they can detect a teaspoon of sugar in a million gallons of water."
             ]
         },
         {
-            "tag": "weather",
+            "tag": "dog_music",
             "patterns": [
-                "how's the weather?",
-                "what's the temperature?",
-                "is it hot outside?",
-                "is it cold today?",
-                "what's the forecast?",
-                "how's the weather today?"
+                "favorite music for dogs?",
+                "what music do dogs like?",
+                "any favorite songs for dogs?",
+                "recommend me some music for my dog"
             ],
             "responses": [
-                "it's sunny and warm",
-                "a bit chilly today",
-                "looks like rain",
-                "nice weather we're having"
+                "Dogs often enjoy classical music, especially compositions with a slower tempo and lower pitches. It can help them relax and reduce anxiety.",
+                "Some dogs seem to respond well to reggae music, with its laid-back rhythm and soothing melodies.",
+                "There's a growing trend of creating music specifically designed for dogs, incorporating sounds and frequencies that appeal to their hearing range and preferences."
             ]
         },
         {
-            "tag": "weekend_plans",
+            "tag": "dog_movies",
             "patterns": [
-                "any plans for the weekend?",
-                "doing anything special this weekend?",
-                "weekend plans?",
-                "got any exciting weekend plans?"
+                "seen any good dog movies lately?",
+                "favorite dog movie genre?",
+                "recommend me a movie about dogs",
+                "dog movie night soon?"
             ],
             "responses": [
-                "just relaxing at home",
-                "meeting up with friends",
-                "going for a hike",
-                "watching movies"
-            ]
-        },
-        {
-            "tag": "hobbies",
-            "patterns": [
-                "what do you like to do for fun?",
-                "any hobbies?",
-                "favorite pastime?",
-                "what are your interests?"
-            ],
-            "responses": [
-                "I enjoy reading",
-                "love playing video games",
-                "going for long walks",
-                "learning new things"
-            ]
-        },
-        {
-            "tag": "jokes",
-            "patterns": [
-                "tell me a joke",
-                "give me a laugh",
-                "joke time",
-                "got any jokes?"
-            ],
-            "responses": [
-                "Why don't scientists trust atoms? Because they make up everything!",
-                "What did one ocean say to the other ocean? Nothing, they just waved.",
-                "Why did the scarecrow win an award? Because he was outstanding in his field!"
-            ]
-        },
-        {
-            "tag": "trivia",
-            "patterns": [
-                "share some trivia",
-                "tell me something interesting",
-                "give me a fun fact",
-                "random trivia"
-            ],
-            "responses": [
-                "A group of flamingos is called a 'flamboyance.'",
-                "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
-                "Bananas are berries, but strawberries aren't."
-            ]
-        },
-        {
-            "tag": "music",
-            "patterns": [
-                "favorite music genre?",
-                "what music do you like?",
-                "any favorite songs?",
-                "recommend me some music"
-            ],
-            "responses": [
-                "I enjoy a bit of everything, but I really like indie rock.",
-                "Lately, I've been into jazz. Do you have any favorite genres?"
-            ]
-        },
-        {
-            "tag": "movies",
-            "patterns": [
-                "seen any good movies lately?",
-                "favorite movie genre?",
-                "recommend me a movie",
-                "movie night soon?"
-            ],
-            "responses": [
-                "I recently watched a great sci-fi movie. Have you seen any good films lately?",
-                "I love comedy movies. Any recommendations?"
+                "I recently watched a heartwarming dog movie. Have you seen any good films about dogs lately?",
+                "I love dog adventure movies. Any recommendations for movies featuring our furry friends?"
             ]
         },
         {
