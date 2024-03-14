@@ -46,7 +46,7 @@ def home(request):
   context = {}
 
   # Model and Intents directory
-  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2024-03-15_03-33-22.h5"
+  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2024-03-15_03-47-39.h5"
   intents_dir = str(base_dir) +"/main/dataset/intents.json"
   model_data = chat.initialize_static_chatbot_requirements(chatbot_model_dir, intents_dir)
 
