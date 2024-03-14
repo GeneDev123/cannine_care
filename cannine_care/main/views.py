@@ -46,7 +46,7 @@ def home(request):
   context = {}
 
   # Model and Intents directory
-  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2024-03-15_02-58-27.h5"
+  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2023-12-19_05-42-13.h5"
   intents_dir = str(base_dir) +"/main/dataset/intents.json"
   model_data = chat.initialize_static_chatbot_requirements(chatbot_model_dir, intents_dir)
 
@@ -75,7 +75,8 @@ def ai_page(request):
     return HttpResponseForbidden("You don't have permission to access this page.")
   
   # List AI models
-  chatbot_models_dir = os.path.join(os.getcwd(), 'main/chatbot-models')
+  base_dir = settings.BASE_DIR
+  chatbot_models_dir = str(base_dir) + '/main/chatbot-models'
   files = os.listdir(chatbot_models_dir)
   chatbot_models_files = [file for file in files if os.path.isfile(os.path.join(chatbot_models_dir, file))]
 
