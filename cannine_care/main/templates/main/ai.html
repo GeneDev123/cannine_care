@@ -3,39 +3,29 @@
 {% load static %}
 
 {% block body %}
-  <div id="ai-page">
+  <div id="ai-config-page">
 
-    <div class="main-container">
+    <div class="ai-main-container">
       
       <div class="main-page-title">
         AI Configuration Page
       </div>      
+      
+      <div class="main-page-instruction">
+        This page is designed to train and integrate new ai model to the system
+      </div>
 
-      <div class="chatbot-message-main-container">
-        <div class="message-container">
-
-          <div class="message-display-container">
-            <div class="chatbot-bubble-container">
-              <div class="chatbot-name">
-                Cannine Care
-              </div>
-    
-              <div class="chatbot-message">
-                Hi {% if user.username %} {{ user.username }} {% else %} Guest {% endif %}! Go ahead and send me a message!😄
-              </div>
-    
-            </div>  
-          </div>
-          
-          <div class="user-options-container">
-            <form id="user-input-message-form">
-              {% csrf_token %}
-              <input type="text" class="user-input-container" id="user-input" placeholder="Type your message..."></input>
-              <button class="user-message-send-btn" id="user-message-send" type="submit">Send</button>
-            </form>
-          </div>
+      <div class="configuration-main-container">
+        <div class="model-information">
 
         </div>
+        <div class="model-output">
+
+        </div>
+        <div class="model-files">
+
+        </div>
+
       </div>
 
     </div>

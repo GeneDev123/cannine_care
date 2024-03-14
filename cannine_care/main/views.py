@@ -3,7 +3,7 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.http import HttpResponse
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponseForbidden
 from django.conf import settings
 
 from .forms import CustomUserCreationForm, UserUpdateForm
@@ -69,4 +69,6 @@ def home(request):
 @login_required(login_url='/accounts/login/')
 def ai_page(request):
   context = {}
+  if not request.user.is_superuser:
+    return HttpResponseForbidden("You don't have permission to access this page.")
   return render(request, 'main/ai.html', context)

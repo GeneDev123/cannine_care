@@ -30,9 +30,13 @@
           <div class="welcome-user-container">
             {% if not user.username == '' %} Welcome, {{ user.username }}! {% else %} Welcome, User!{% endif %}
           </div>
-          <div class="ai-page-nav-container">
-            <a class="nav-link" href="{% url 'ai' %}">AI</a>
-          </div>
+          
+          {% if user.is_superuser %}
+            <div class="ai-page-nav-container">
+              <a class="nav-link" href="{% url 'ai' %}">AI</a>
+            </div>
+          {% endif %}
+          
           <div class="logout-container">
             <a class="nav-link" href="{% url 'logout' %}">logout</a>
           </div>
