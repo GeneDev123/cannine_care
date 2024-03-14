@@ -5,6 +5,7 @@ from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse, HttpResponseForbidden
 from django.conf import settings
+import os
 
 from .forms import CustomUserCreationForm, UserUpdateForm
 from .models import CustomUser
@@ -45,7 +46,7 @@ def home(request):
   context = {}
 
   # Model and Intents directory
-  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2023-12-19_05-42-13.h5"
+  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2024-03-15_02-58-27.h5"
   intents_dir = str(base_dir) +"/main/dataset/intents.json"
   model_data = chat.initialize_static_chatbot_requirements(chatbot_model_dir, intents_dir)
 
@@ -69,6 +70,29 @@ def home(request):
 @login_required(login_url='/accounts/login/')
 def ai_page(request):
   context = {}
+  
   if not request.user.is_superuser:
     return HttpResponseForbidden("You don't have permission to access this page.")
+  
+  # List AI models
+  chatbot_models_dir = os.path.join(os.getcwd(), 'main/chatbot-models')
+  files = os.listdir(chatbot_models_dir)
+  chatbot_models_files = [file for file in files if os.path.isfile(os.path.join(chatbot_models_dir, file))]
+
+  context = {'chatbotModels': chatbot_models_files}
+  
   return render(request, 'main/ai.html', context)
+
+def train_ai(request):
+  context = {}
+  
+  try:
+    base_dir = settings.BASE_DIR
+    intents_dir = str(base_dir) +"/main/dataset/intents.json"
+    model_data = chat.train_model(intents_dir)
+    context = {'model_output': model_data}
+  
+  except:
+    print("Error: Training failed")
+
+  return JsonResponse(context, safe=False)
