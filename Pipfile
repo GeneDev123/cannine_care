@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 django = "*"
-tensorflow = "*"
+tensorflow = "==2.9.0"
 nltk = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

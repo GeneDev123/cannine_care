@@ -19,6 +19,10 @@
 <body>
   <div id="cannine-care-main-container">
 
+    <div id="loading-overlay" v-if="isLoading">
+      <div class="loader"></div>
+    </div>
+
     <div class="header-container">
       <div class="header-label-container"> 
         
@@ -30,6 +34,13 @@
           <div class="welcome-user-container">
             {% if not user.username == '' %} Welcome, {{ user.username }}! {% else %} Welcome, User!{% endif %}
           </div>
+          
+          {% if user.is_superuser %}
+            <div class="ai-page-nav-container">
+              <a class="nav-link" href="{% url 'ai' %}">AI</a>
+            </div>
+          {% endif %}
+          
           <div class="logout-container">
             <a class="nav-link" href="{% url 'logout' %}">logout</a>
           </div>
