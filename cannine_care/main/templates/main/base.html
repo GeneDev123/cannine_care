@@ -34,12 +34,20 @@
           <div class="welcome-user-container">
             {% if not user.username == '' %} Welcome, {{ user.username }}! {% else %} Welcome, User!{% endif %}
           </div>
+
+          <div class="vets-page-nav-container">
+            <a class="nav-link" href="{% url 'vets' %}">Vets</a>
+          </div>
           
           {% if user.is_superuser %}
             <div class="ai-page-nav-container">
               <a class="nav-link" href="{% url 'ai' %}">AI</a>
             </div>
           {% endif %}
+
+          <div class="profile-page-nav-container">
+            <a class="nav-link" href="{% url 'profile' 0 %}">Profile</a>
+          </div>
           
           <div class="logout-container">
             <a class="nav-link" href="{% url 'logout' %}">logout</a>

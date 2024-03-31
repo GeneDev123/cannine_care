@@ -51,7 +51,7 @@ def initialize_static_chatbot_requirements(model_dir, intents_dir):
 def predict_class(sentence, model, words, ignore_chars, lemmatizer, classes):
   p = bow(sentence, words, ignore_chars, lemmatizer, show_details=False)
   res = model.predict(np.array([p]))[0]
-  ERROR_THRESHOLD = 0.30
+  ERROR_THRESHOLD = 0.70
   results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
   results.sort(key=lambda x: x[1], reverse=True)
   return_list = []
@@ -154,7 +154,7 @@ def train_model(intents_dir):
   model.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy"])
 
   # Train the model
-  model.fit(np.array(X_train), np.array(y_train), epochs=40, batch_size=10, verbose=1)
+  model.fit(np.array(X_train), np.array(y_train), epochs=100, batch_size=10, verbose=1)
 
   # Save the model
   current_datetime = datetime.datetime.now()

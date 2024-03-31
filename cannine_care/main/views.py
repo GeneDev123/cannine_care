@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import AuthenticationForm
+from django.contrib import messages
 from django.http import HttpResponse
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
@@ -46,7 +47,7 @@ def home(request):
   context = {}
 
   # Model and Intents directory
-  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2024-03-15_03-47-39.h5"
+  chatbot_model_dir = str(base_dir) +"/main/chatbot-models/chatbot_2024-03-31_21-37-48.h5"
   intents_dir = str(base_dir) +"/main/dataset/intents.json"
   model_data = chat.initialize_static_chatbot_requirements(chatbot_model_dir, intents_dir)
 
@@ -97,3 +98,28 @@ def train_ai(request):
     print("Error: Training failed")
 
   return JsonResponse(context, safe=False)
+
+@login_required(login_url='/accounts/login/')
+def profile(request, is_updating_user_data):
+  
+  context = {
+    'user_data': request.user,
+    'is_updating_data': 1 if is_updating_user_data == 1 else 0,
+  }
+
+  if request.method == 'POST' and is_updating_user_data == 1:
+    form = UserUpdateForm(request.POST, request.FILES, instance=request.user)
+    if form.is_valid():
+      form.save()
+      messages.success(request, 'Your profile has been updated successfully.')
+      return redirect('profile', is_updating_user_data=0)
+    else:
+      messages.error(request, 'There was an error in updating your profile. Please correct the errors.')
+  else:
+    form = UserUpdateForm(instance=request.user)
+
+  context['form'] = form
+  return render(request, 'main/profile.html', context)
+
+def vets(request):
+  pass

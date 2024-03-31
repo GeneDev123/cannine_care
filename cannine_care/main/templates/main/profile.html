@@ -1,0 +1,161 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block body %}
+  <div id="profile-page-container">
+    
+    <div class="form-label-container">
+      <!-- <div><img class="logo" src="{% static 'main/assets/logo.svg' %}"></div> -->
+      <div class="text-container">
+        Profile: {{ user.username }}
+      </div>
+    </div>
+
+    <div class="user-profile-container">
+      {% if is_updating_data == 0 %}
+        <div class="scrollbar-container">
+          
+          <div class="user-individual-data-container">
+            <div class="data-label">Profile Picture: </div>
+            <div class="data" style="display: flex; justify-content: center;">
+              {% if user_data.profile_picture %}
+                <img src="{{ user_data.profile_picture.url }}" alt="Profile Picture">
+              {% else %}
+                No profile picture set.
+              {% endif %}
+            </div>
+          </div>
+        
+          <div class="user-individual-data-container">
+            <div class="data-label">Username: </div>
+            <div class="data">
+              {% if user_data.username %} {{ user_data.username}} {% else %} Unset {% endif %}
+            </div>
+          </div>
+          <div class="user-individual-data-container">
+            <div class="data-label">First Name: </div>
+            <div class="data">
+              {% if user_data.first_name %} {{ user_data.first_name}} {% else %} Unset {% endif %}
+            </div>
+          </div>
+          <div class="user-individual-data-container">
+            <div class="data-label">Last Name: </div>
+            <div class="data">
+              {% if user_data.last_name %} {{ user_data.last_name}} {% else %} Unset {% endif %}
+            </div>
+          </div>
+          <div class="user-individual-data-container">
+            <div class="data-label">Age: </div>
+            <div class="data">
+              {% if user_data.age %} {{ user_data.age}} {% else %} Unset {% endif %}
+            </div>
+          </div>
+          <div class="user-individual-data-container">
+            <div class="data-label">Gender: </div>
+            <div class="data">
+              {% if user_data.gender %} {{ user_data.gender}} {% else %} Unset {% endif %}
+            </div>
+          </div>
+          <div class="user-individual-data-container">
+            <div class="data-label">Bio: </div>
+            <div class="data bio-container">
+              {% if user_data.bio %} {{ user_data.bio}} {% else %} Unset {% endif %}
+            </div>
+          </div>
+
+          <hr>
+
+        </div>
+
+        <div class="dhi-user-aggreement-container">
+          <div class="dhi-user-aggreement-label">
+            I, 
+              {% if user_data.username != '' %} 
+                <span class="text-bolder">{{ user_data.username}}</span>
+              {% else %}
+                the <span class="text-bolder">User </span>
+              {% endif %}
+            , agree to the Cannine Care terms and conditions.
+          </div>
+          <input type="checkbox" class="readonly-checkboxes" {% if user_data.is_agree_terms_and_condition %}checked{% endif %} readonly>  
+        </div>    
+
+        <a class="update-user-data" href="{% url 'profile' 1 %}">Update User Data</a>
+      {% else %}
+
+        <form method="post" enctype="multipart/form-data">
+          {% csrf_token %}
+
+          <div class="scrollbar-container">
+
+            {{ form.non_field_errors }}
+
+            <div class="user-individual-data-container">
+              <div class="data-label">Profile Picture: </div>
+              <div class="data-input">{{ form.profile_picture }}</div>
+            </div>
+
+            <hr>
+
+            <div class="user-individual-data-container">
+              <div class="data-label">Username: </div>
+              <div class="data-input">{{ form.username }}</div>
+            </div>
+            
+            <div class="user-individual-data-container">
+              <div class="data-label">First Name: </div>
+              <div class="data-input">{{ form.first_name }}</div>
+            </div>
+            
+            <div class="user-individual-data-container">
+              <div class="data-label">Last Name: </div>
+              <div class="data-input">{{ form.last_name }}</div>
+            </div>
+            
+            <div class="user-individual-data-container">
+              <div class="data-label">Age: </div>
+              <div class="data-input">{{ form.age }}</div>
+            </div>
+            
+            <div class="user-individual-data-container">
+              <div class="data-label">Gender: </div>
+              <div class="data-input">{{ form.gender }}</div>
+            </div>
+            
+            <div class="user-individual-data-container">
+              <div class="data-label">Bio: </div>
+              <div class="data-input">{{ form.bio }}</div>
+            </div>
+            
+            <hr>
+
+          </div>
+          
+          <div class="dhi-user-aggreement-container">
+            <div class="dhi-user-aggreement-label">
+              I, 
+                {% if user_data.username != '' %} 
+                  <span class="text-bolder">{{ user_data.username}}</span>
+                {% else %}
+                  the <span class="text-bolder">User </span>
+                {% endif %}
+              , agree to the Cannine Care terms and conditions.
+            </div>
+          
+            {{ form.is_agree_terms_and_condition }}  
+
+          </div>
+
+          <div class="display-flex">
+            <button type="submit">Save</button>
+            <a class="update-user-data" href="{% url 'profile' 0 %}">Cancel</a>
+          </div>
+        </form>
+
+      {% endif %}
+
+    </div>
+
+  </div>
+{% endblock %}
