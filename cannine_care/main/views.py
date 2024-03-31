@@ -121,5 +121,7 @@ def profile(request, is_updating_user_data):
   context['form'] = form
   return render(request, 'main/profile.html', context)
 
+@login_required(login_url='/accounts/login/') 
 def vets(request):
-  pass
+  context = {}
+  return render(request, 'main/vets.html', context)
