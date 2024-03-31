@@ -1,11 +1,14 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from .models import CustomUser
+from django.utils.html import format_html
+
+admin.site.site_header = "Cannine Care Administration"
 
 class CustomUserAdmin(UserAdmin):
   model = CustomUser
 
-  list_display = ('username', 'email', 'first_name', 'last_name', 'is_staff')
+  list_display = ( 'username', 'display_profile_picture', 'is_vet', 'email', 'first_name', 'last_name', 'is_staff')
 
   fieldsets = (
     (None, 
@@ -15,12 +18,17 @@ class CustomUserAdmin(UserAdmin):
       ('Personal info', 
       {
         'fields': 
-          ('first_name', 'last_name', 'bio', 'career')
+          ('profile_picture', 'first_name', 'last_name', 'bio', 'career')
+      }),
+      ('Vets info', 
+      {
+        'fields': 
+          ('is_vet', 'vet_name', 'phone', 'address', 'website', 'specialization', 'hospital_affiliations')
       }),
       ('Permissions', 
       {
         'fields': 
-          ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')
+          ('is_active', 'is_staff', 'is_superuser')
       }),
       ('Important dates', 
       {
@@ -33,5 +41,13 @@ class CustomUserAdmin(UserAdmin):
           ('is_agree_terms_and_condition',)
       }),
   )
+
+  def display_profile_picture(self, obj):
+    if obj.profile_picture:
+      return format_html('<img src="{}" width="50" height="50" />', obj.profile_picture.url)
+    else:
+      return 'No Image'
+
+  display_profile_picture.short_description = 'Profile Picture'
 
 admin.site.register(CustomUser, CustomUserAdmin)
