@@ -8,7 +8,7 @@ admin.site.site_header = "Cannine Care Administration"
 class CustomUserAdmin(UserAdmin):
   model = CustomUser
 
-  list_display = ( 'username', 'profile_picture', 'is_vet', 'email', 'first_name', 'last_name', 'is_staff')
+  list_display = ( 'username', 'display_profile_picture', 'is_vet', 'email', 'first_name', 'last_name', 'is_staff')
 
   fieldsets = (
     (None, 
