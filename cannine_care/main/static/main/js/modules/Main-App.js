@@ -35,6 +35,7 @@ class MainApp {
           let vueApp = this;
           $(document).ready(function() {
             vueApp.initializeListener('#user-input-message-form');       
+            vueApp.initializeListener('#profile-page-container')
             vueApp.initializeTrainBtn();     
           });
         },
@@ -82,6 +83,26 @@ class MainApp {
 
             if(container === '#user-input-message-form'){
               this.applyListenerToUserChat();
+            }
+            else if(container == "#profile-page-container"){
+           
+              var readonlyCheckeboxes = document.querySelectorAll('.readonly-checkboxes');
+              var readonlyInputs = document.querySelectorAll('.readonly-inputs');
+
+              readonlyCheckeboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('click', function(event) {
+                  event.preventDefault();
+                  checkbox.checked = !checkbox.checked;
+                  return false;
+                });
+              });
+
+              readonlyInputs.forEach(function(input) {
+                input.readOnly = true;
+                input.addEventListener('click', function(event) {
+                  event.preventDefault();
+                });
+              });
             }
           },
           applyListenerToUserChat(){
