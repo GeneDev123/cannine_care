@@ -95,6 +95,13 @@
   display: block;
 }
 
+#profile-page-container .user-profile-container .user-individual-data-container .data img {
+  display: block;
+  max-width: 230px;
+  height: auto;
+  object-fit: cover;
+}
+
 #profile-page-container .user-profile-container .user-individual-data-container .data-label {
   font-weight: bold;
 }
