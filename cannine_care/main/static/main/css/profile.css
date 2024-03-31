@@ -1,0 +1,190 @@
+#profile-page-container {
+  margin: 0 30rem;
+}
+
+#profile-page-container ::-webkit-scrollbar {
+  width: 10px;
+}
+
+#profile-page-container ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#profile-page-container ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#profile-page-container ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#profile-page-container .form-label-container,
+#profile-page-container .form-container {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#profile-page-container .form-label-container {
+  display: flex;
+  align-items: center;
+}
+
+#profile-page-container .form-label-container .logo {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+#profile-page-container .form-label-container .logo img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#profile-page-container .form-label-container .text-container {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#profile-page-container .form-container,
+#profile-page-container .user-profile-container {
+  border: 1px solid #555;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#profile-page-container .form-container .options-container,
+#profile-page-container .user-profile-container .options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile-page-container .form-container .options-container .authentication-link {
+  font-size: 12px;
+}
+
+#profile-page-container .user-profile-container .scrollbar-container {
+  height: 450px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+#profile-page-container .user-profile-container .user-individual-data-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+#profile-page-container .user-profile-container .user-individual-data-container .data-label,
+#profile-page-container .user-profile-container .user-individual-data-container .data {
+  margin: 5px 0px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+#profile-page-container .user-profile-container .user-individual-data-container .data-input a {
+  display: block;
+}
+
+#profile-page-container .user-profile-container .user-individual-data-container .data-label {
+  font-weight: bold;
+}
+
+#profile-page-container .user-profile-container .user-individual-data-container .data {
+  background-color: rgb(228, 228, 228);
+  width: 300px;
+  max-width: 300px;
+}
+
+#profile-page-container .user-profile-container .user-individual-data-container .bio-container {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+#profile-page-container .user-profile-container .dhi-user-aggreement-container {
+  display: flex;
+  justify-content: center;
+}
+
+#profile-page-container .user-profile-container .dhi-user-aggreement-container .dhi-user-aggreement-label {
+  margin-right: 5px;
+}
+
+#profile-page-container .text-bolder {
+  font-weight: bold;
+}
+
+#profile-page-container .display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+  #profile-page-container {
+    margin: auto;
+  }
+
+  #profile-page-container .form-label-container,
+  #profile-page-container .form-container,
+  #profile-page-container .user-profile-container {
+    width: 100%;
+  }
+
+  #profile-page-container .form-label-container .logo {
+    width: 65px;
+  }
+
+  #profile-page-container .form-label-container .text-container {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #profile-page-container {
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  #profile-page-container .form-label-container,
+  #profile-page-container .form-container,
+  #profile-page-container .user-profile-container {
+    width: 100%;
+  }
+
+  #profile-page-container .user-profile-container .user-individual-data-container {
+    display: block;
+  }
+
+  #profile-page-container .user-profile-container .user-individual-data-container .data {
+    width: 100%;
+  }
+
+  #profile-page-container .form-label-container {
+    padding: 0px 2rem;
+  }
+
+  #profile-page-container .form-label-container .logo {
+    width: 50px;
+  }
+
+  #profile-page-container .form-label-container .text-container {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  #profile-page-container .form-container,
+  #profile-page-container .user-profile-container {
+    border: none;
+    box-shadow: none;
+  }
+}
