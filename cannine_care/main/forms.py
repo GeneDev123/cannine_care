@@ -28,7 +28,7 @@ class CustomUserCreationForm(UserCreationForm):
 class UserUpdateForm(forms.ModelForm):
   class Meta:
     model = CustomUser
-    fields = ['username', 'first_name', 'last_name', 'bio', 'career', 'is_agree_terms_and_condition']
+    fields = ['username', 'first_name', 'last_name', 'bio', 'career', 'is_agree_terms_and_condition', 'profile_picture']
 
     def clean_username(self):
       username = self.cleaned_data['username']

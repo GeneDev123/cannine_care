@@ -46,18 +46,6 @@
             </div>
           </div>
           <div class="user-individual-data-container">
-            <div class="data-label">Age: </div>
-            <div class="data">
-              {% if user_data.age %} {{ user_data.age}} {% else %} Unset {% endif %}
-            </div>
-          </div>
-          <div class="user-individual-data-container">
-            <div class="data-label">Gender: </div>
-            <div class="data">
-              {% if user_data.gender %} {{ user_data.gender}} {% else %} Unset {% endif %}
-            </div>
-          </div>
-          <div class="user-individual-data-container">
             <div class="data-label">Bio: </div>
             <div class="data bio-container">
               {% if user_data.bio %} {{ user_data.bio}} {% else %} Unset {% endif %}
@@ -111,16 +99,6 @@
             <div class="user-individual-data-container">
               <div class="data-label">Last Name: </div>
               <div class="data-input">{{ form.last_name }}</div>
-            </div>
-            
-            <div class="user-individual-data-container">
-              <div class="data-label">Age: </div>
-              <div class="data-input">{{ form.age }}</div>
-            </div>
-            
-            <div class="user-individual-data-container">
-              <div class="data-label">Gender: </div>
-              <div class="data-input">{{ form.gender }}</div>
             </div>
             
             <div class="user-individual-data-container">
