@@ -4,6 +4,41 @@
 
 {% block body %}
   <div id="vets-page">
-    VETS PAGE
+    <div class="main-vets-page">
+      
+      <div class="vets-page-title">
+        Registered Veterinarians
+      </div>
+
+      <div class="vets-feed-main-container">
+        <div class="inner-container">
+          
+        {% if not vets_list %}
+          <div class="vets-list">
+            <div class="vet-img-container">
+              <img src="{% static 'main/assets/vet_profile.png' %}">
+            </div>
+          </div>
+        {% endif %}
+          
+        {% for vet in vets_list %}
+        <div class="vets-list">
+          <div class="vet-img-container">
+            <img src="{{ vet.profile_picture.url }}" alt="Profile Picture">
+          </div>
+          <div class="vets-info-container">
+            <div class="phone"><strong>Phone: </strong>{{ vet.phone }}</div>
+            <div class="address"><strong>Address: </strong>{{ vet.address }}</div>  
+            <div class="website"><strong>Website: </strong>{{ vet.website }}</div> 
+            <div class="specialization"><strong>Specialization: </strong>{{ vet.specialization }}</div>
+            <div class="hospital_affiliations"><strong>Affliation: </strong>{{ vet.hospital_affiliations }}</div>        
+          </div>
+        </div>
+        {% endfor %}
+      
+        </div>
+      </div>
+
+    </div>
   </div>
 {% endblock %}
