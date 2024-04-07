@@ -13,6 +13,18 @@
   font-weight: bold;
 }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.carousel-caption .text-lg{
+  font-size: 60px;
+}
+
+.carousel-caption .text-md{
+  font-size: 30px;
+}
+
 .uploaded-media-container .card{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -47,5 +59,13 @@
   }
   .card-img {
     width: 100%;
+  }
+
+  .carousel-caption .text-lg{
+    font-size: 30px;
+  }
+  
+  .carousel-caption .text-md{
+    font-size: 15px;
   }
 }
