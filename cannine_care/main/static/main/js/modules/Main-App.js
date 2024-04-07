@@ -36,6 +36,7 @@ class MainApp {
           $(document).ready(function() {
             vueApp.initializeListener('#user-input-message-form');       
             vueApp.initializeListener('#profile-page-container')
+            vueApp.initializeListener('.vets-list');
             vueApp.initializeTrainBtn();     
           });
         },
@@ -102,6 +103,12 @@ class MainApp {
                 input.addEventListener('click', function(event) {
                   event.preventDefault();
                 });
+              });
+            }
+            else if(container == '.vets-list'){
+              $('.vets-list').click(function(){
+                $(this).find('.vets-info-container').slideToggle('slow');
+                $(this).find('.vet-img-container').slideToggle('slow');
               });
             }
           },
