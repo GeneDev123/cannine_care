@@ -124,4 +124,6 @@ def profile(request, is_updating_user_data):
 @login_required(login_url='/accounts/login/') 
 def vets(request):
   context = {}
+  vets_list = CustomUser.objects.filter(is_vet=True)  
+  context['vets_list'] = vets_list
   return render(request, 'main/vets.html', context)
