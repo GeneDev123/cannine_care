@@ -21,7 +21,15 @@
             "responses": [
                 "hello",
                 "hey!",
-                "what can I do for you?"
+                "what can I do for you?",
+                "Hiya! Ready to tackle any questions or concerns you have. What's on your mind?",
+                "Hi! I'm here to help. What can I do for you?",
+                "Woof woof   What can I do to help?",
+                "Welcome to Canine Care! How may I assist you and your furry friend today?",
+                "Hello there! If you have any questions about your pet's health or need advice, feel free to ask!",
+                "Greetings! Whether you're here for a check-up or have concerns about your pet's well-being, I'm here to help",
+                "Good day! Need assistance with your pet's health or looking for pet care products? Let me know how I can assist you?",
+                "Greetings! Whether you're here for a check-up, looking for advice on canine care, or searching for the perfect products for your furry friend, I'm here to assist you every step of the way."
             ]
         },
         {
@@ -40,11 +48,20 @@
                 "cause amp unspoilt mean_solar_day",
                 "good-by",
                 "cao",
-                "see ya"
+                "see ya",
+                "Okay",
+                "Okay,Thanks"
             ],
             "responses": [
                 "have a nice day",
-                "goodbye"
+                "goodbye",
+                "Take care, and may your tail wag or purr with joy until we meet again! ",
+                "Stay pawsitive until next time, and remember, we're always here for you!",
+                "Wishing you a wag-tastic day ahead! Until our next chat!",
+                "Adios, amigo! May your adventures be filled with treats and belly rubs!",
+                "Goodbye for now! Keep those whiskers twitching and those paws exploring!",
+                "Keep those tails wagging and those noses sniffing until our next visit!",
+                "Until we chat again, keep those fur coats shiny and those hearts full of love!"
             ]
         },
         {
@@ -65,7 +82,12 @@
             "responses": [
                 "you're welcome",
                 "no problem",
-                "my pleasure"
+                "my pleasure",
+                "No problem at all! Wishing your dog a speedy recovery",
+                "You're welcome! I'm glad I could help. Sending positive thoughts for your dog's well-being.",
+                "You're welcome! And best wishes for your dog's recovery",
+                "Anytime! I hope your dog feels better soon"
+                
             ]
         },
         {
@@ -107,49 +129,763 @@
                 "A dog's sense of smell is so acute that they can detect a teaspoon of sugar in a million gallons of water."
             ]
         },
-        {
-            "tag": "dog_music",
+        {  
+            "tag":"Dog eat chocolate",
             "patterns": [
-                "favorite music for dogs?",
-                "what music do dogs like?",
-                "any favorite songs for dogs?",
-                "recommend me some music for my dog"
+             "My dog ate chocolate. What should I do?" , 
+             "My dog eat chocolate . what to do?", 
+             "Chocolate is good for dog?" , 
+             "Is there anything I can do at home to help?",
+             "What to do dog ate chocolate?"
             ],
             "responses": [
-                "Dogs often enjoy classical music, especially compositions with a slower tempo and lower pitches. It can help them relax and reduce anxiety.",
-                "Some dogs seem to respond well to reggae music, with its laid-back rhythm and soothing melodies.",
-                "There's a growing trend of creating music specifically designed for dogs, incorporating sounds and frequencies that appeal to their hearing range and preferences."
+            "Dogs who consume chocolate may endure symptoms such as vomiting, diarrhea, rapid breathing, convulsions, and even death as a result of the poisoning. ",
+            "Make sure any chocolate is safely stored out of reach of dogs, and educate everyone in your household on the risks of chocolate. Give healthy alternatives to food and check your home on a regular basis for potential chocolate sources."
+        ]
+        },
+        {  
+            "tag": "Coughing and Difficulty Breathing",
+            "patterns": [
+          "why my dog keeps coughing and not breathe normaly",
+          "My dog keeps coughing and not breathe normaly",
+          "My dog keeps coughing and can't breathe normally",   
+          "Dog keeps coughing and can't breathe normally", 
+          "My dog keeps coughing and almost can't breathe", 
+          "My dog is hard to breathe and coughing all time",
+          "What could be causing my dog to have difficulty breathing?",
+          "why my dog have a difficulty to breathe? ",
+          "what cause of my dog coughing and not breating normaly",
+          "cause of my dog coughing ",
+          "cause of my dog difficulty breathing ",
+          "Should I be concerned if my dog is coughing occasionally?",
+          "My dog is hard to breathe and coughing all time"
+            ],
+            "responses": [
+           " Coughing and difficulty breathing can indicate various respiratory issues in dogs, such as kennel cough, pneumonia, or heart disease"
+            ] 
+        },
+        {  
+            "tag": "Coughing and Difficulty Breathing 2",
+            "patterns": [
+
+          "What to do if my dog keeps coughing",
+          "Dog keeps coughing what to do", 
+          "My dog keeps coughing what to do", 
+          "My dog still coughing what to do", 
+          "Dog keeps coughing what should I do", 
+          "My dog keeps coughing what should I do", 
+          "Dog still coughing what should I do",
+          "My dog still coughing what should I do",
+          "What to do if my dog keeps coughing and couldn't breathe",
+          "Dog keeps coughing and can't breathe what to do", 
+          "My dog keeps coughing and not breathing normally what to do", 
+          "Dog still coughing and having difficulty to breathe what to do", 
+          "My dog still coughing and can't breathe what to do", 
+           "Dog keeps coughing what should I do", 
+          "My dog keeps coughing what should I do", 
+          "Dog still coughing what should I do", 
+          "My dog still coughing what should I do",
+          "What should I do if my dog keeps coughing",
+          "What to do if my dog having difficulty to breathe?",
+          "What should I do if my dog having difficulty to breathe?", 
+          "What can I do if my dog still coughing?", 
+          "What can I do if my dog keeps coughing?",    
+          "How can I help my dog breathe better during episodes of coughing or difficulty breathing?",
+          "Are there any home remedies I can try to alleviate my dog's symptoms?",
+          "What to do if my dog keeps coughing and difficulty to breathe?",
+          "What to do if my dog having difficulty to breathe?",
+          "How can I help my dog breathe better during episodes of coughing or difficulty breathing?",
+          "Are there any home remedies I can try to alleviate my dog's symptoms?",
+          "What to do if my dog keeps coughing and difficulty to breathe?"
+
+            
+            ],
+            "responses": [
+           " To prevent these symptoms, ensure your dog is up to date on vaccinations and avoid exposure to sick animals. Additionally, keep your dog away from cigarette smoke and other respiratory irritants"
+            ] 
+        },
+
+ {  
+            "tag": "Excessive Thirst and Increased Urination",
+            "patterns": [
+            "My dog appears to be urinating more frequently and has been drinking a lot more water than usual. ",
+            "My dog increased  urination and excessive thirst what to do?",
+            "What is the cause of my dog increased urination and always thirst?",
+            "My dog keeps frequently urine and always thirst what to do?",
+            "Is it normal for my dog to urinate more frequently than usual?",
+            "What could be causing my dog's increased thirst and urination?",
+            "What tests or examinations might my veterinarian recommend to determine the cause of my dog's symptoms?",
+            "What to do if my dog increased urination and always thirst?"
+
+            
+            ],
+            "responses": [
+            "In dogs, increased thirst and urination can be signs of a number of underlying problems. Diabetes mellitus, in which the body is unable to appropriately regulate blood sugar levels, is one common cause.",
+            "Some diabetes-related factors, such as genetics, are uncontrollable, the risk can be considerably decreased by maintaining a healthy weight through consistent exercise and a balanced diet. Keep your dog successful and away from overindulging in treats or high-sugar foods."
+            ] 
+        },
+        {  
+            "tag": "Abdominal Pain",
+            "patterns": [
+          "why my dog seems uncomfortable in his belly.",
+          "My dog is uncomfortable in his belly",
+          "why my dog feel pain in its belly while touching it",
+          "What is the cause of abdominal pain?"
+
+            
+            ],
+            "responses": [
+         "Many factors, such as infections or digestive problems, can cause abdominal pain. Make sure you eat a balanced diet and get regular exercise to prevent it."
+            ] 
+        },
+        {  
+            "tag": "Abdominal Pain 2",
+            "patterns": [
+          "what to do if my dog having an abdominal pain",
+          "What is the remedies of dog having abdominal pain",
+          "how to prevent abdominal pain?"
+
+            
+            ],
+            "responses": [
+         "Feeding your dog a balanced diet, avoiding table scraps, and providing regular exercise can help prevent gastrointestinal issues. Ensuring access to clean water and prompt treatment of any urinary tract infections can also minimize the risk of abdominal discomfort"
+            ] 
+        },
+        {  
+            "tag":"Ear Problem",
+            "patterns": [
+             "My dog keeps getting ear infections",
+             "Ear infection cause  and what to do?",
+             "Otitis Externa cause  How to prevent",
+             "How to prevent ear infections?"
+            ],
+            "responses": [
+                "Ear infections can stem from moisture buildup, allergies, or foreign objects",
+                "Ear infections can result from allergies or foreign objects. To prevent them, keep your dog's ears clean and dry. If your dog has allergies, treating them can help prevent future infections. "
+            ]
+        },
+        {  
+            "tag":"Vomiting Brown saliva",
+            "patterns": [
+             "Vomiting Brown saliva cause of it?",
+             "Vomiting a brown  saliva cause of it?",
+             "Cause of Brown saliva",
+             "Cause of dog's saliva?",
+             "Brown saliva",
+             "Dog vomits brown saliva",
+             "Vomits of brown saliva",
+             "What to do at home?",
+             "What to do dog vomits brown saliva?",
+             "What diet should the dog take to avoid throwing up Brown saliva?",
+             "What diet or food should take the dog?",
+             "What diet food for my dog vomits brown saliva?",
+             "Dog vomiting brown saliva what diet is good?",
+             "The dog vomting brown saliva what diet for that?",
+             "Dog vomits brown saliva what to do?",
+             "Dog vomits brown saliva"
+             
+            ],
+            "responses": [
+            "Brown saliva vomiting in dogs can suggest a variety of disorders, including gastrointestinal hemorrhage, foreign item ingestion, and liver difficulties.",
+            "Vomiting brown saliva in dogs could be due to gastrointestinal bleeding, ingestion of toxic substances, or liver issues. Preventing it at home involves keeping harmful items out of reach, maintaining a balanced diet, and monitoring your dog's health closely."
+            
+        ]
+        },
+        {  
+            "tag":"Vomiting Brown saliva 2",
+            "patterns": [
+             "My dog still vomiting brown saliva",
+             "why my dog still vomiting brown saliva even after doing the remedies",
+             "Why my dog still vomiting brown saliva",
+             "Why the dog still vomits brown saliva?",
+             "My dog saliva still brown",
+             "Dog vomits brown saliva"
+             
+            ],
+            "responses": [
+            "If your dog is still vomiting brown saliva despite home care attempts, it's crucial to seek veterinary attention promptly. Continuous vomiting, especially if it persists after fasting and reintroducing a bland diet, may indicate a more serious underlying issue that requires professional evaluation and treatment,Prompt veterinary evaluation is essential to determine the cause and provide appropriate treatment for your dog's well-being"
+        ]
+        },
+        {  
+            "tag":"Vomiting Brown saliva 3",
+            "patterns": [
+             "what is the remedies for dog vomit brown saliva",
+             "what is the remedies for dog vomit brown saliva?",
+             "remedies for dog vomit brown saliva?",
+             "What to do when my dog vomits brown saliva?",
+             "What diet should the dog take to avoid throwing up Brown saliva?",
+             "What diet or food should take the dog?",
+             "What diet food for my dog vomits brown saliva?",
+             "dog vomiting brown saliva what diet is good?",
+             "The dog vomting brown saliva what diet for that?",
+             "what is the remedies for dog vomit brown saliva",
+             "dog vomits brown saliva what to do?"
+             
+            ],
+            "responses": [
+            "For a well-balanced diet, feed your dog high-quality commercial dog food that contains protein sources such as chicken, beef, or fish, as well as carbs from rice or sweet potatoes. Incorporating fruits and vegetables like apples, carrots, and green beans can also give your dog with critical vitamins, minerals, and fiber."
+            
+        ]
+        },
+        {  
+            "tag":"Vomiting Yellow saliva",
+            "patterns": [
+             "vomiting a yellow saliva cause of it?",
+             "Cause of yellow saliva",
+             "Dog's yellow saliva",
+             "How can I prevent this at home?",
+             "What is the treatment at home?",
+             "My dog is vomiting yellow saliva what to do?",
+             "What meals is good to avoid dog's vomit yellow saliva?",
+             "What is the caused of dog vomits yellow saliva?"
+            ],
+            "responses": [
+            "Yellow saliva vomiting can be caused by a variety of conditions, including bile reflux, gastritis, or non-food intake. Monitor your dog's behavior and diet for any changes.",
+            "If your dog is vomiting, give them tiny, bland meals like boiled chicken and rice until their stomach calms. You can also provide supplements like probiotics or digestive enzymes to help them with their digestion."
+            ]
+        },
+        {  
+            "tag":"vomiting white saliva",
+            "patterns": [
+             "Cause of vomiting white saliva?",
+             "White saliva",
+             "How to prevent white vomiting saliva?",
+             "Vomiting white saliva in dogs",
+             "White saliva",
+             "Dog white saliva",
+             "My dog vomits white saliva",
+             "My dog vomiting white saliva",
+             "White saliva in dogs",
+             "Vomiting white saliva in dogs",
+             "Vomiting white saliva",
+             "Vomiting with white saliva",
+             "Vomit white saliva",
+             "Vomit with white saliva",
+             "My dog is vomiting white saliva what should i do?",
+             "Vomiting white saliva what to do?",
+             "How to prevent white vomiting saliva?",
+             "How to prevent vomiting white saliva?"         
+            ],
+            "responses": [
+                "Vomiting white saliva can sometimes be caused by an empty stomach or stress",
+                "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller, more frequent meals, reducing stressors in your dog's environment, and ensuring they have access to fresh water.",
+                "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller, more frequent meals, reducing stressors in your dog's environment, and ensuring they have access to fresh water.",
+                "Vomiting white saliva can sometimes be caused by an empty stomach or stress",
+                "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller, more frequent meals, reducing stressors in your dog's environment, and ensuring they have access to fresh water.",
+                "Vomiting white saliva can sometimes be caused by an empty stomach or stress",
+                "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller, more frequent meals, reducing stressors in your dog's environment, and ensuring they have access to fresh water.",
+                "Vomiting white saliva can sometimes be caused by an empty stomach or stress",
+                "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller,",
+                "Vomiting white saliva can sometimes be caused by an empty stomach or stress",
+               "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller",
+               "Vomiting white saliva can sometimes be caused by an empty stomach or stress",
+               "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller, more frequent meals, reducing stressors in your dog's environment, and ensuring they have access to fresh water.",
+               "Vomiting white foam or saliva can be caused by various factors such as an empty stomach, stress, or even mild gastrointestinal irritation. To help prevent it, try feeding smaller, more frequent meals, reducing stressors in your dog's environment, and ensuring they have access to fresh water.",
+               "To prevent it, try feeding smaller, more frequent meals and creating a calm environment for your dog. If the vomiting continues or worsens, it's best to consult with your vet ",
+               "To prevent it, try feeding smaller, more frequent meals and creating a calm environment for your dog. If the vomiting continues or worsens, it's best to consult with your vet ",
+               "To prevent it, try feeding smaller, more frequent meals and creating a calm environment for your dog. If the vomiting continues or worsens, it's best to consult with your vet ",
+               "To prevent it, try feeding smaller, more frequent meals and creating a calm environment for your dog. If the vomiting continues or worsens, it's best to consult with your vet "
+            ] 
+        },
+        {  
+            "tag":"Parvo",
+            "patterns": [
+             "What is parvo?",
+             "How to prevent parvo?",
+             "What to do if my dog had a parvo?"
+            ],
+            "responses": [
+            "Parvovirus can cause significant illness, particularly in young puppies. Common symptoms include fatigue, lack of appetite, vomiting, diarrhea (sometimes bloody), and fever.",
+            "Vaccination serves as the foundation for prevention. Make sure your dog gets all of its vaccines on time. Avoid areas where other dogs have been until they are fully vaccinated, and restrict interaction with unknown or unvaccinated dogs.",
+            "Bring them to the nearest vet immediately for treatment."
+            ]
+        },
+        {  
+            "tag":"Salivating",
+            "patterns": [
+             "Dental problem",
+             "drooling dog",
+             "what to do about salivating?",
+             "Prevent drooling dog",
+             "Causes of salvating",
+             "What to do drooling dog"
+            ],
+            "responses": [
+            "Excessive dog drooling can stem from nausea, dental issues, or exposure to toxins. To prevent it, keep your dog away from potential toxins and maintain good dental hygiene. If drooling continues or if other symptoms arise, seek a vet's advice promptly.",
+            "Excessive salivation in dogs, also known as hypersalivation or ptyalism, can be caused by various factors such as nausea, dental problems, exposure to toxins, or certain medical conditions affecting the mouth or throat.",
+            "To prevent excessive salivation at home, keep the environment toxin-free, maintain dental hygiene, and monitor your dog's behavior. If the issue persists, seek immediate veterinary care for diagnosis and treatment."
+            ]
+        },
+        {  
+            "tag":"Dental Problems",
+            "patterns": [
+            "Dental Problems",
+            "Dog tar tar",
+            "Tar tr",
+            "plaque buildup on teeth",
+            "What to do of Dental Problem",
+            "Cure of dental problem",
+            "What to do of dental problem"
+
+            
+            ],
+            "responses": [
+            "To prevent dental issues, provide dental chews, brush teeth regularly, avoid sugary treats, and watch for signs like bad breath or swollen gums. If issues arise, seek a dental check-up promptly.",
+            "Plaque buildup on teeth occurs when bacteria, food, and saliva combine to form a sticky film. Without regular brushing and dental cleanings, plaque hardens into tartar, leading to gum disease and other dental issues.",
+            "Tartar forms when plaque hardens on the teeth due to mineral deposits from saliva. If left untreated, it can lead to gum disease. Regular dental cleanings by a veterinarian are essential for tartar removal and maintaining oral health in dogs.",
+            "Dental problems in dogs encompass issues like plaque, tartar, gum disease, and tooth decay. Regular brushing, dental chews, and vet cleanings help prevent them."
+            ] 
+        },
+        {  
+            "tag": "Diabetes",
+            "patterns": [
+            "Increased Thirst",
+            "Sugary foods to dogs",
+            "Dog have diabetes",
+            "Diabetes",
+            "How to prevent diabetes",
+            "Sweet foods to dogs",
+            "Sugary foods to dogs"
+            ],
+            "responses": [
+            "Thirst and frequent urination can signal diabetes in dogs. Prevent it with regular exercise, a balanced diet, and avoiding sugary foods. Monitor their water intake and urine output. If you notice symptoms, seek vet care.",
+            "Eating sugary food can cause health problems in dogs, including obesity and dental issues.",
+            "To prevent diabetes in dogs, maintain a balanced diet, provide regular exercise, and avoid feeding them sugary or high-carbohydrate foods. Regular veterinary check-ups can also help detect and manage any potential health concerns early on."
+            ] 
+        },
+        {  
+            "tag": "Vomiting with worms",
+            "patterns": [
+             "My dog vomiting with worms what to do?",
+             "My dog vomits with worm cause of it?",
+             "Give me treatment of worms",
+             "Treatment of worms",
+             "How to prevent worms",
+             "How to prevent dog's worms"
+
+            ],
+            "responses": [
+             "Vomiting worms could suggest a severe worm infestation in your dog's digestive tract. Worms can irritate the stomach lining, resulting in vomiting. This can be avoided by deworming your dog on a regular basis and limiting his or her contact to contaminated areas.",
+             "Regular deworming is necessary, as is keeping the surroundings clean to limit the possibility of re-infestation. Be sure to follow your veterinarian's deworming treatments plan and hygiene advice."
+            ] 
+        },
+        {  
+            "tag": "Vomiting Eating plants",
+            "patterns": [
+            "What to do if you vomit after eating plants?",
+            "Dog eat plants",
+            "What to do my dog eat plant",
+            "Dog ate plants",
+            "Dog vomits after eating plants"
+
+            ],
+            "responses": [
+             "Indeed, it is alarming. Certain plants may be toxic to dogs and result in more serious symptoms like vomiting. Are you aware of the plants your dog has been consuming?",
+             "To ascertain the possible risk, the specific plants must be identified. Oleanders, azaleas, and lilies are a few common toxic plants. It's advisable to take your dog in for an examination if he vomits regularly or exhibits other symptoms like diarrhea or lethargy.",
+             "If your dog is vomiting, it's essential to monitor them closely. Try withholding food for 12-24 hours to give their stomach a rest, and offer small amounts of water frequently to prevent dehydration. If the vomiting persists or worsens, it's best to bring them in for an examination at the clinic. We can determine the underlying cause and provide appropriate treatment.",
+             "To prevent vomiting in dogs, it's essential to monitor their diet and prevent access to potentially harmful substances. Offer a balanced diet and avoid sudden changes in food. Ensure they don't ingest items like garbage or toxic plants. If your dog tends to eat quickly, consider feeding smaller, more frequent meals. Additionally, keep them up-to-date on vaccinations to prevent infectious causes of vomiting. If vomiting persists or worsens, seek veterinary attention promptly for further evaluation and treatment." 
+            ]
+        },
+        {  
+            "tag": "Jaundice",
+            "patterns": [
+             "Eyes and gums look's yellow",
+             "Eyes turns yellow",
+             "Yellow color in eyes dog",
+             "Yellow color in gums",
+             "Yellow color in gums and eyes",
+             "Gallballder problem",
+             "Yellow gums",
+             "How to prevent yellow gums",
+             "Causes of yellow color",
+             "Treatment of yellow gums"
+            ],
+            "responses": [
+             "Jaundice in dogs, a yellow discoloration, may indicate liver or gallbladder problems. Prompt vet attention is crucial. While preventing jaundice at home isn't always possible, maintaining your dog's health with a balanced diet and regular vet check-ups can help detect issues early. If you notice jaundice symptoms, seek vet care immediately.",
+             "Yellow discoloration in a dog's eyes, known as jaundice, may indicate liver or gallbladder issues. Prompt veterinary evaluation and treatment are essential. Maintaining overall health with a balanced diet and regular vet check-ups is crucial. If jaundice symptoms occur, seek immediate veterinary care.",
+             "To prevent jaundice in dogs, focus on maintaining their overall health with a balanced diet, regular exercise, and routine vet check-ups. Minimize exposure to toxins, and promptly address any signs of illness. If jaundice symptoms appear, seek immediate veterinary care.",
+             "Gallbladder issues in dogs can arise from factors like gallstones, infections, inflammation, or bile duct obstructions. These can cause symptoms such as abdominal pain, vomiting, jaundice, or changes in appetite. Veterinary care is necessary for diagnosis and treatment.,",
+             "Preventing yellow gums in dogs involves maintaining their overall health through regular veterinary check-ups, a balanced diet, and proper dental care. Monitoring for any signs of illness or changes in gum color can also help detect potential issues early. If you notice yellowing of your dog's gums, it's crucial to seek veterinary attention promptly to determine the underlying cause and appropriate treatment.",
+             "The yellow color in a dog's gums can indicate various health issues such as liver problems, anemia, or jaundice. It's essential to consult a veterinarian for a proper diagnosis and treatment.",
+             "The treatment for yellow gums depends on the underlying cause. For example, if it's due to liver problems, the vet may prescribe medication or recommend dietary changes. If it's related to anemia, addressing the underlying condition and possibly supplementation may be necessary. Always follow the vet's advice for the specific treatment plan tailored to your dog's needs."
+            ] 
+        },
+        {  
+            "tag": "Discharge",
+            "patterns": [
+             "Discharge from his nose",
+             "Nasal discharge",
+             "Nose discharge",
+             "How to prevent  discharge",
+             "Cause dicharge"
+            ],
+            "responses": [
+             "Nasal discharge in dogs can result from infections, allergies, or foreign objects. Keep their environment clean, ensure vaccinations are up-to-date, and monitor closely. If issues persist, seek vet attention promptly.",
+             "Nasal discharge in dogs can have various causes, including respiratory infections, allergies, foreign objects lodged in the nasal passages, dental problems, or even tumors. It's essential to consult a veterinarian for a proper diagnosis and treatment plan tailored to your dog's specific condition.",
+             "Nasal discharge in dogs can be caused by infections, allergies, foreign objects, or dental issues.",
+             "To prevent nasal discharge in dogs, maintain a clean environment, ensure vaccinations are up-to-date, and avoid exposure to irritants."
+            ] 
+        },
+        {  
+            "tag": "SICK",
+            "patterns": [
+               "How can I tell if my dog is sick?",
+               "Common symptoms of a sick dog?",
+               "Signs that the dog is not feeling well?",
+               "Sign that dog's are not feeling well?",
+               "Sign of sick dog",
+               "Dog is sick",
+               "Dog is not feeling well",
+               "The dog is sick",
+               "What to do if the dog is sick?",
+               "The dog is sick what to do?"
+            ],
+            "responses": [
+             "Watch for changes like appetite loss, lethargy, vomiting, diarrhea, coughing, or unusual symptoms. Monitor body language and energy levels; if they seem off, it could mean sickness. Trust your instincts and get a check-up if worried.",
+             "Dog sickness can stem from various factors such as infections, dietary indiscretions, allergies, underlying health conditions, or exposure to toxins.",
+             "To prevent dog sickness, maintain a balanced diet, ensure regular exercise, and keep up with vaccinations. Avoid exposure to harmful substances, provide a stress-free environment, and monitor symptoms closely. If symptoms persist, seek veterinary care promptly.",
+             "There are a number of typical signs that your dog may not be feeling well. These include altered appetite, vomiting, diarrhoea, fatigue, sneezing, coughing, and behavioral abnormalities."
+            ] 
+        },
+        {  
+            "tag": "Constipation",
+            "patterns": [
+            "My dog seems to be constipated",
+             "Constipation about dog",
+             "How to prevent Constipation?",
+             "Cure constipation",
+             "Dog's Constipation",
+             "Constipation dog",
+             "Dehydration",
+             "What to do dog's constipation?",
+             "How to prevent constipaption",
+             "Constipated"
+            ],
+            "responses": [
+            "Constipation in dogs can result from dehydration, diet, or health issues. Provide plenty of water and consider adding fiber like canned pumpkin. If it persists or causes distress for more than a day, see the vet.",
+            "To cure constipation in dogs at home, try feeding them fiber-rich foods like canned pumpkin, ensuring they stay hydrated with plenty of water, and providing regular exercise. If the issue persists, consult your vet for further advice and treatment.",
+            "if your dog's constipated, try canned pumpkin or a bit of olive oil in his meals for relief. Make sure he stays hydrated. If it lasts or he seems distressed, a vet check-up's best for proper care.",
+            "Constipation in dogs can be uncomfortable. You can try feeding your dog a small amount of canned pumpkin, which contains fiber and can help with bowel movements. Make sure your dog stays hydrated and consider adding more water to their diet."
+            ] 
+        },
+        {  
+            "tag": "Gas bloating",
+            "patterns": [
+             "cause of my Dog gassy bloated tummy",
+             "My dog tummy seems to be bloating and gassy.",
+             "Gas bloating",
+             "What causes gas bloating in dogs?",
+             "Dog gas bloating",
+             "Bloated dog",
+             "Dog bloating gas",
+             "Gas bloating to my dog",
+             "my dog looks bloated",
+             "my dog stomach is gassy",
+             "Digestive issue"
+             
+            ],
+            "responses": [
+            "Dogs that exhibit gas bloating may find it uncomfortable and may have digestive problems. To help avoid gas buildup, you should try feeding smaller, more frequent meals. Steer clear of high-fiber foods and table scraps that might cause flatulence in your dog.",
+            "Excessive gas and bloating in dogs could signal digestive issues. Monitor symptoms closely, ensure they have water and a balanced diet. If bloating persists or your dog shows distress, see the vet for an examination.",
+            "Gas bloating in dogs can result from swallowing air while eating or drinking too quickly, consuming certain types of food that produce gas, gastrointestinal issues, or underlying health conditions.",
+            "Bloating in dogs can be caused by various factors such as swallowing air while eating or drinking, eating too quickly, consuming certain types of food that produce gas, gastrointestinal issues, or underlying health conditions like gastric dilation-volvulus (GDV).",
+            "Bloating in dogs can stem from eating too quickly or consuming gas-producing foods. Prevent it by feeding smaller, more frequent meals, and ensure your dog eats slowly. Avoid large meals and strenuous activity post-feeding. If you notice bloating symptoms, like a swollen abdomen, seek vet care promptly."
+            ] 
+        },
+        {  
+            "tag": "Gas bloating 2",
+            "patterns": [
+             "what to do if my dog is tummy bloating",
+             "my dog tummy is bloating what to do at home",
+             "my dog tummy is bloating what to do",
+             "What causes gas bloating in dogs?",
+             "any tips to prevent dog bloating",
+             "How to prevent dog gas bloating?"
+            ],
+            "responses": [
+            "To help avoid gas buildup, you should try feeding smaller, more frequent meals. Steer clear of high-fiber foods and table scraps that might cause flatulence in your dog."
+            
+            ] 
+        },
+        {  
+            "tag": "Gas bloating 3",
+            "patterns": [
+             "my dog tummy is still bloating ",
+             "dog stomach is still gassy",
+             "why my dog tummy is still bloating"
+            ],
+            "responses": [
+            "If your dog is still bloated, it could be a sign of a serious medical condition, such as bloat (gastric dilation and volvulus), which is a potentially life-threatening condition in dogs. Bloat occurs when the stomach fills with gas, fluid, or food, causing it to expand.If you suspect your dog is bloated, it's crucial to seek veterinary care immediately. "
+            
+            ] 
+        },
+        {  
+            "tag": "Increased Urination",
+            "patterns": [
+            "what to do if the dog increased urination?",
+            "Dog increased urination what to do?",
+            "Increased urination in dogs",
+            "Increased Urination",
+            "dog possible uti",
+            "Urination increased"
+            ],
+            "responses": [
+            "To avoid dehydration, make sure your dog always has a supply of fresh water. To assist flush out bacteria, you might try urging your dog to drink more water if you think they may have a UTI. For the best course of action, you should speak with your veterinarian.",
+            "In dogs,increased urination may indicate a number of underlying conditions, including diabetes, kidney illness, urinary tract infections, and hormonal imbalances. For an accurate diagnosis and course of treatment, it's critical to keep an eye on your dog's urinary patterns and speak with your veterinarian."
+            ] 
+        },
+        {  
+            "tag": "Itching",
+            "patterns": [
+            "Cause of dog itching",
+            "dog keeps itching",
+             "Dog has been itching a lot and what to do?",
+             "What to do at home about itching?",
+             "Dog itching"
+            ],
+            "responses": [
+            "Itching in dogs can be caused by various factors such as allergies, skin infections, parasites, or underlying health conditions. To prevent itching, keep your dog clean and groomed regularly, use hypoallergenic shampoos, ensure they are on flea and tick prevention, and provide a balanced diet rich in essential nutrients. If itching persists, consult your vet for proper diagnosis and treatment.",
+            "If your dog is itching, try to identify the cause. Check for fleas, ticks, or any skin irritation. Bathing your dog with a mild shampoo may provide relief. If the itching persists or if you notice any signs of skin infection, it's best to consult a vet for further evaluation and treatment.",
+            "If your dog's itching persists or worsens despite home therapies, or if you detect any signs of skin irritation, redness, or hair loss, you should consult your veterinarian. They can identify the underlying cause of the irritation and suggest appropriate treatment."
+            ] 
+        },
+        {  
+            "tag": "Hair loss",
+            "patterns": [
+            "Losing my dog's hair",
+             "Hair loss in dog",
+             "dog hair is balding",
+             "Lossing hair in dog",
+             "Lossing hair in my dog what to do?"
+
+            ],
+            "responses": [
+             "Hair loss in dogs, can be caused by a variety of factors, including allergies, parasites, hormone imbalances, skin infections, or underlying medical disorders. It is critical to identify the underlying reason in order to give proper treatment",
+             "Regular grooming to remove loose hair and keep the skin and coat healthy. Ensure your dog is on a flea prevention regimen and keep their living environment clean to prevent parasitic infestations.",
+              "If your dog's hair loss continues or worsens despite home remedies, or if you notice any signs of skin irritation, redness, or sores, it's best to consult with your veterinarian. They can determine the underlying cause of the hair loss and recommend appropriate treatment."
+              
+            ]
+        },
+        {  
+            "tag":"Blood in Urine",
+            "patterns": [
+             "Dog has blood in their urine",
+             "Blood in urine",
+             "red urine",
+             "bloody urine"
+            ],
+            "responses": [
+                "Blood in the urine, can signal a variety of underlying conditions, such as urinary tract infections, bladder stones, urinary tract malignancies, or kidney disease. It is critical to identify the reason in order to provide suitable treatment."     
+            ]
+        },
+        {  
+            "tag":"Blood in Urine 2",
+            "patterns": [
+             "How to prevent at home dog's blood urine?",
+             "What to do my dog urine's bleed",
+             "What to do to my dog blood in urine?",
+             "what to do if my dog's urine is still red",
+             "any tips to help dog stop peeing blood"
+            ],
+            "responses": [
+                "To prevent dehydration, ensure that your dog regularly has a supply of fresh water. If you suspect your dog has a urinary tract infection, encourage him to drink more water to help flush out the bacteria",
+                " if you continue to see blood in your dog's urine or if you notice any other concerning symptoms such as straining to urinate, frequent urination, or signs of pain, it's best to bring them to the vet for a thorough examination and further evaluation."       
+            ]
+        },
+        {  
+            "tag":"Blood in Urine 3",
+            "patterns": [
+             
+             "What to do to my dog if still have blood in urine?",
+             "dog keeps urinating blood",
+             "still red urine",
+             "urine is still red",
+             "blood in urine still"
+            ],
+            "responses": [
+                " if you continue to see blood in your dog's urine or if you notice any other concerning symptoms such as straining to urinate, frequent urination, or signs of pain, it's best to bring them to the vet for a thorough examination and further evaluation."       
+            ]
+        },
+        
+        
+        {  
+            "tag": "Blood in stool",
+            "patterns": [
+              "My dog has blood in their stool.",
+              "My dog has blood in his stool. What could be causing it?",
+              "Blood in stool",
+              "Stool in blood",
+              "Blood in poop",
+              "Poop blood",
+              "red poop",
+              "red stool",
+              "Dog poop is blood",
+              "Blood in stool",
+              "Bloods in stool",
+              "Beeding poop",
+              "Bleed in stool",
+              "Blood in poop",
+              "What to do my dog has a blood in stool?",
+              "Dog's blood in stoll what to do?",
+              "What to do blood in stool?"
+
+            ],
+            "responses": [
+            "Keep your dog hydrated and regulate their nutrition to avoid more gastrointestinal distress. If the blood in the feces is significant or persistent, you should visit your veterinarian for additional evaluation and treatment.",
+            "Blood in the stool, can be caused by a variety of conditions, including gastrointestinal infections, inflammatory bowel disease, parasites, or dietary indiscretions. It is critical to identify the reason in order to provide suitable treatment.",
+            "Bloody stool in dogs can indicate various issues such as gastrointestinal infections, parasites, or dietary indiscretions. Preventive measures include feeding a balanced diet, regular deworming, and keeping your dog's environment clean. If you notice blood in your dog's stool, it's essential to seek veterinary attention promptly for proper diagnosis and treatment.",
+            "If you continue to observe blood in your dog's feces, or if you see any other troubling symptoms such as diarrhea, vomiting, or pain, take them to the vet for a full examination. Persistent blood in the stool could signal a more serious underlying problem that necessitates veterinary intervention."
             ]
         },
         {
-            "tag": "dog_movies",
+            "tag": " Loss Appetite ",
             "patterns": [
-                "seen any good dog movies lately?",
-                "favorite dog movie genre?",
-                "recommend me a movie about dogs",
-                "dog movie night soon?"
+                "dog has been refusing to eat lately.",
+                "What should i do my dog dont want to eat?",
+                "what to do dog loss appetite?",
+                "What to do of dog loss appretite",
+                "What should i do my dog dont want to eat?",
+                "What to do why my dog dont want to eat?",
+                "How to prevent loss appetite",
+                "dog dont want to eat",
+                "Loss appetite tell me what to do?",
+                "loss appetite prevent at home",
+                "Prevent loss appetite",
+                "Prevent lossing appetite",
+                "How to prevent lossing appetite?",
+                "My dog doesnt want to eat",
+                "Anything I can do at home to increase my dog's appetite?"
             ],
             "responses": [
-                "I recently watched a heartwarming dog movie. Have you seen any good films about dogs lately?",
-                "I love dog adventure movies. Any recommendations for movies featuring our furry friends?"
+                "Dogs can lose their appetite for a variety of reasons, including illness, stress, dental difficulties, gastrointestinal troubles, or environmental changes. It is critical to identify the underlying reason in order to give proper treatment.",
+               "Loss of appetite in dogs can be caused by various factors, including stress, underlying health issues, changes in diet, environmental changes, and dental problems. To prevent it, maintain a stress-free environment, stick to a consistent feeding schedule, offer a balanced diet, keep them hydrated, encourage exercise, and ensure good dental hygiene. If loss of appetite persists, consult your vet.",
+               "Try giving your dog smaller, more frequent meals with highly appetizing and readily digestible food. Warm the food slightly to bring out its aroma and make it more attractive. If your dog's loss of appetite persists or if he exhibits any other troubling signs, you should speak with your veterinarian"
+            ] 
+        },
+        {
+            "tag": "Wet poop ",
+            "patterns": [    
+                " dog has been having wet, loose stools." ,       
+                "Why dog poop wet?",
+                "Dog poop wet",
+                "Why my dog poop is wet?",
+                "Dog poops wet",
+                "The poop of my dog is wet",
+                "The poop of my dog's is wet",
+                "Dog wet poop",
+                "Wet poop",
+                "watery poop",
+                "watery stool",
+                "Why the poop is wet",
+                "Why the dog poop is wet?",
+                "what to do wet poop",
+                "Prevent dog's wet poop",
+                "Best way to do  about wet poop",
+                "Stool wet",
+                "What to do dog's wet poop?",
+                "Dog's wet poop what to do",
+                "Dog's poop is wet",
+                "Dog's poop is wet and diarrhea"
+            ],
+            "responses": [
+                "Wet or watery, loose stools in dogs, often known as diarrhea, can be caused by a variety of factors, including poor food, gastrointestinal infections, dietary changes, parasites, or underlying health issues. It is critical to identify the underlying reason in order to give proper treatment.",
+               "Feeding your dog a bland meal of boiled chicken and rice will help settle their stomach and firm up their feces. Keep your dog hydrated by providing plenty of fresh water. If the diarrhea persists or your dog exhibits any other troubling symptoms, you should check with your dog's vet",
+               "If your dog continues to have diarrhea, or if you detect any other troubling symptoms such as vomiting, lethargy, or pain, take them to the vet for a full examination. Persistent diarrhea could suggest an underlying health problem that need veterinary care."
             ]
         },
         {
-            "tag": "dogs",
+            "tag": "Diarrhea",
             "patterns": [
-                "tell me about dogs",
-                "dog breeds",
-                "favorite dog breed?",
-                "dog trivia",
-                "dog knowledge",
-                "got any dog jokes?"
+                "My dog has diarrhea.",
+                "Why is my dog having diarrhea?",
+                "Dog's Diarrhea",
+                "Dog Diarrhea and what to do?",
+                "My dog has diarrhea what should i do?",
+                "My dog has diarrhea what to do",
+                "My dog has diyaria now",
+                "My dog has diarrhea. What should I do at home?",
+                "How to prevent dog's diarrhea",
+                "Anything I can do dog's diarrhea at home to help?"
+               
             ],
             "responses": [
-                "Dogs are amazing! Did you know that there are hundreds of different dog breeds, each with its own unique characteristics?",
-                "Sure, let's talk about dogs! There are various breeds like Labrador Retrievers, German Shepherds, Beagles, and more. What specific information are you interested in?",
-                "Dog trivia time! Here's a fun fact: The Basenji dog is known as the 'barkless dog' because it doesn't bark like other dogs. Instead, it makes a unique yodel-like sound.",
-                "When it comes to dog knowledge, did you know that dogs have an extraordinary sense of smell? They have up to 300 million smell receptors in their noses, compared to about 5 million in humans!",
-                "Alright, how about a dog joke? Why did the dog sit in the shade? Because he didn't want to be a hot dog!"
+                "Dog diarrhea can be caused by a variety of factors, including food indiscretions, gastrointestinal infections, parasites, dietary changes, stress, or underlying health issues. It is critical to identify the underlying reason in order to give proper treatment.",
+                "Start with a bland diet like boiled chicken and rice, and keep your dog hydrated. If the diarrhea persists, seek veterinary advice promptly for proper diagnosis and treatment. Take care",
+                "To help settle your dog's stomach, consider feeding him a bland meal of boiled chicken and rice. Keep your dog hydrated by providing plenty of fresh water. If the diarrhea persists or your dog exhibits any other troubling symptoms, you should check with your dog's vet for further evaluation and treatment.",
+                "Consider a bland diet of boiled chicken and rice and ensure your dog stays hydrated. If the diarrhea persists, consulting a vet is advisable.",
+                "Offer boiled chicken and rice in small portions. Keep him hydrated. If no improvement in 24 hours or it worsens, head to the nearest vet."
+            ]
+        },
+         {
+
+            "tag": "Dog is tired ",
+            "patterns": [
+                "Why my dog is tired",
+                "Why my dog is tire",
+                "Tell me why my dog is tired",
+                "Tell me why the dog is tire",
+                "Tired dog",
+                "Reason of my dog tired?",
+                "Tire dog",
+                "tired dog advice at home",
+                "my dog seems tired",
+                "My dog feel tired. What can I do?",
+                "my dog is tire. What can I do?",
+                "My dog feel tired. what should I do?",
+                "My dog feel tires tell me what to do",
+                "My dog is tired why?",
+                "The is tired why?",
+                "The dog is tire and why?"
+            ],
+            "responses": [
+                "Tiredness in dogs can be due to various reasons, including illness, stress, or simply getting older. If you notice prolonged fatigue or other concerning symptoms, it's best to consult a vet for proper evaluation and guidance",
+                "Regular exercise, a balanced diet, and mental stimulation help prevent dog tiredness. Monitor their health closely. Stick to a consistent routine."
+
+            ]
+        },
+        {
+
+            "tag": "Dog is tired 2",
+            "patterns": [
+                "Why my dog is tired",
+                "Why my dog is tire",
+                "Tell me why my dog is tired",
+                "Tell me why the dog is tire",
+                "Tired dog",
+                "Reason of my dog tired?",
+                "Tire dog",
+                "tired dog advice at home",
+                "my dog seems tired",
+                "My dog feel tired. What can I do?",
+                "my dog is tire. What can I do?",
+                "My dog feel tired. what should I do?",
+                "My dog feel tires tell me what to do",
+                "My dog is tired why?",
+                "The is tired why?",
+                "The dog is tire and why?"
+            ],
+            "responses": [
+                "Tiredness in dogs can be due to various reasons, including illness, stress, or simply getting older. If you notice prolonged fatigue or other concerning symptoms, it's best to consult a vet for proper evaluation and guidance",
+                "Regular exercise, a balanced diet, and mental stimulation help prevent dog tiredness. Monitor their health closely. Stick to a consistent routine."
+                
+            ]
+        },
+        {
+            "tag": "Eye Problem",
+            "patterns": [ 
+                "Dog seems to have an issue with their eye",
+                "Eye problem cause",
+                "Why my dog had an eye problem?",
+                "Cause of eye problem",
+                "Eye problem",
+                "What to do to dog's eye problem",
+                "Eye problem of dog's what to do?"
+            ],
+            "responses": [
+              "Infections, traumas, allergies, foreign objects stuck in the eye, and underlying health disorders such as glaucoma or cataracts are all possible causes of dog vision impairments. It is critical to identify the underlying reason in order to give proper treatment.",
+              "Eye problems in dogs can stem from infections, irritants, allergies, or underlying health issues. To prevent them, keep your dog's eyes clean, avoid smoke or pollutants, maintain a balanced diet, and ensure regular exercise. If you detect any signs of eye issues, promptly seek vet evaluation and treatment.",
+              "You can try gently flushing your dog's eyes with saline solution for temporary relief. If the redness persists or worsens, it's best to bring your dog in for a check-up.",
+              "To get rid of dust or irritants from your dog's eye, gently rinse it with sterile saline solution. Avoid touching or rubbing the eye, since this might aggravate the condition. If the problem persists, or if your dog exhibits signs of pain or discomfort, you should visit with your dog's vet for further evaluation and advice."
             ]
         },
         {
@@ -158,7 +894,9 @@
                 "How can I keep my dog healthy?",
                 "Any tips for maintaining a dog's well-being?",
                 "What are common health issues in dogs?",
-                "How often should I take my dog to the vet?"
+                "How often should I take my dog to the vet?",
+                "Dog health",
+                "Tips for dog's health"
             ],
             "responses": [
                 "Regular exercise and a balanced diet are key to keeping your dog healthy. Make sure to schedule regular vet check-ups too.",
@@ -168,111 +906,98 @@
             ]
         },
         {
-            "tag": "dog_toys",
+            "tag": "Cataracts",
             "patterns": [
-                "Any recommendations for interactive dog toys?",
-                "What are some good toys for a teething puppy?",
-                "Do you have a favorite type of dog toy?",
-                "How often should I rotate my dog's toys?"
+                "My dog seems to be developing cataracts",
+                "My dog seems to be developing cataracts What to do?",
+                "Dog cataracts",
+                "Dog cataracts causes?",
+                "Can you give me reasons why my dog has cataracts?",
+                "Causes of my dog cataracts",
+                "Give me cause of dog's cataracts",
+                "Give me a reason dog's cataracts" ,
+                "Cataracts",
+                "What can i do to my dog's cataracts?"
             ],
             "responses": [
-                "Interactive toys like puzzle feeders can engage your dog's mind and provide mental stimulation.",
-                "For a teething puppy, consider soft rubber toys that soothe their gums. Frozen toys can also help with teething discomfort.",
-                "I love Kong toys; they're durable and great for keeping dogs entertained. Rope toys are also good for interactive play.",
-                "It's a good idea to rotate your dog's toys every few weeks to keep them interested. Wash toys regularly to maintain cleanliness."
+            "Cataracts in dogs are a common cause of vision loss, particularly in elderly canines. It is critical to have your dog evaluated by a veterinarian to confirm the diagnosis and determine the extent of the cataracts. ",
+            "Since cataracts are irreversible, certain dietary supplements including antioxidants may help reduce their growth. Furthermore, maintaining your dog's overall health and controlling any underlying issues can help them keep their vision for as long as possible.",
+            "Cataracts can have a severe influence on your dog's vision and quality of life, particularly if not treated. However, many dogs adjust well to visual loss and can continue to have happy and fulfilled lives with proper care and support from their owners. Monitor your dog's behavior and get advice from your dog's vet on how to manage their condition."
+            
             ]
-        },    
+        }, 
         {
-            "tag": "dog_breed_trivia",
+            "tag": "Difficulty Breathing",
             "patterns": [
-                "Tell me an interesting fact about Golden Retrievers.",
-                "What's unique about Dachshunds?",
-                "Can you share a trivia about Border Collies?",
-                "Any fun facts about Shih Tzus?"
+                "My dog seems to be having difficulty breathing",
+                "Dog seems to be having difficulty breathing",
+                "My dog can't breathe normally.",
+                "What should i do about struggle to breathe",
+                "What should i do my dog cant breathe",
+                "Dog cant breathe what should i do",
+                "Dog breathe is not normal",
+                "Brth struglng",
+                "Dog not  breathe normally what to do?",
+                "My dog not breathe normally,",
+                "Reason of breathe struggling",
+                "Brth struglng what to do?",
+                "Dog struggle to breathe what to do?"
+               
             ],
             "responses": [
-                "Golden Retrievers are known for their friendly nature and intelligence. They're often used as guide dogs and in search and rescue missions.",
-                "Dachshunds were originally bred for hunting. Their long bodies and short legs made them well-suited for going into burrows to catch small game.",
-                "Border Collies are considered one of the most intelligent dog breeds. They excel in obedience training and are often used in competitive dog sports.",
-                "Shih Tzus were bred as companion dogs for Chinese royalty. They have a distinctive long, flowing coat and a friendly demeanor."
-            ]
-        },
-        {
-            "tag": "golden_retriever",
-            "patterns": [
-                "Tell me more about Golden Retrievers.",
-                "What are the typical characteristics of Golden Retrievers?",
-                "Recommended activities for Golden Retrievers?"
-            ],
-            "responses": [
-                "Golden Retrievers are known for their friendly and gentle temperament. They are highly intelligent and easy to train.",
-                "Characteristic features of Golden Retrievers include a dense, water-repellent coat and a well-balanced body. They are also known for their friendly expression.",
-                "Golden Retrievers thrive on activities like fetch and swimming. They are energetic and enjoy being part of family activities."
-            ]
-        },
-        {
-            "tag": "dachshund",
-            "patterns": [
-                "Tell me more about Dachshunds.",
-                "What are the characteristics of Dachshunds?",
-                "Any health considerations for Dachshunds?"
-            ],
-            "responses": [
-                "Dachshunds are known for their distinctive long body and short legs. They were originally bred for hunting purposes, especially for going into burrows to catch small game.",
-                "Characteristic features of Dachshunds include a long, muscular body and a bold, confident demeanor. They are also known for their keen sense of smell.",
-                "Due to their unique body shape, Dachshunds may be prone to back problems. It's important to provide them with proper support and regular exercise."
+            "Difficulty breathing in dogs might indicate a variety of underlying conditions, including respiratory infections, allergies, heart problems, or even a foreign item stuck in the airway. It is critical to get veterinarian assistance promptly, as difficulty breathing might quickly turn fatal.",
+             "Difficulty breathing in dogs can stem from infections, allergies, heart issues, obesity, or stress. Keep their environment clean, ensure exercise, and maintain vaccinations. If they struggle to breathe, see the vet promptly.",
+             "Keep your dog quiet and comfortable on the trip to the vet. If they are having trouble breathing, try to keep them calm and in a well-ventilated environment. Do not expose them to excessive temperatures or other potential stresses.",
+             "The prognosis for difficulty breathing in dogs is determined on the underlying cause and how promptly they receive veterinarian treatment. Some illnesses, such as respiratory infections or allergies, are treatable with proper medical care. However, more serious illnesses, such as heart disease, may necessitate ongoing therapy and monitoring. It is critical to contact with your pet's veterinarian for an accurate diagnosis and treatment plan. "
             ]
         },
         {
-            "tag": "border_collie",
+            "tag": "Weight loss",
             "patterns": [
-                "Tell me more about Border Collies.",
-                "What are the characteristics of Border Collies?",
-                "Recommended training for Border Collies?"
+             "My dog has been losing weigh",
+             "My dog has been losing weight what to do?",
+               "My dog loss weight why?",
+               "Why my dog loss his weight? what should i do?",
+               "Losing weight of a dog?",
+               "weight loss",
+               "Dog weight loss why?",
+               "Cause of lossing weight of dog",
+               "Dog cause of lossing weight",
+               "Dog lossing weight",
+               "My dog loss weight",
+               "My dog loss weight why?",
+               "Not eating food",
+               "Solution of losing weight?",
+               "How to prevent lossing weight of my dog?",
+               "Anything I can do at home to help my dog gain weight?"
             ],
             "responses": [
-                "Border Collies are highly intelligent and energetic dogs, known for their agility and trainability. They are often used in herding and competitive dog sports.",
-                "Characteristic features of Border Collies include a medium-sized body with a keen, alert expression. They have a double coat that can be short or medium in length.",
-                "Border Collies excel in obedience training and enjoy activities that challenge their intelligence, such as agility courses and problem-solving games."
+                "Weight loss in dogs might indicate a variety of underlying concerns, such as dental difficulties, gastrointestinal illnesses, metabolic diseases, parasites, or cancer. It is critical to identify the underlying reason in order to give proper treatment.",
+                "To boost your dog's calorie intake, consider offering them a high-quality, calorie-dense diet or supplementing with canned food, broth, or dietary fats. However, before making any nutritional adjustments, speak with your veterinarian to ensure they are suitable for your dog's health.",
+                "If your dog continues to lose weight or if you detect any other unusual symptoms such as vomiting, diarrhea, lethargy, or changes in appetite, take them to the veterinarian for a thorough examination. Persistent weight loss could suggest an underlying health problem that necessitates veterinary care."
             ]
         },
         {
-            "tag": "shih_tzu",
+            "tag": "Coughing",
             "patterns": [
-                "Tell me more about Shih Tzus.",
-                "What are the characteristics of Shih Tzus?",
-                "Recommended grooming for Shih Tzus?"
+                "My dog has been coughing frequently",
+                "My dog has been coughing what to do?",
+                "Coughing dog",
+                "Cause of dog's coughing",
+                "Coughing dog cause",
+                "My dog is coughing and what to do?",
+                "Dog is Coughing what should i do?",
+                "Why is my dog coughing every minute?",
+                "Cause of my dog coughing",
+                "Coughing",
+                "Dog's keeps coughing",
+                "Anything I can do at my dog coughing  to help my dog feel better"
+
             ],
             "responses": [
-                "Shih Tzus are known for their friendly and outgoing personalities. They were originally bred as companion dogs for Chinese royalty.",
-                "Characteristic features of Shih Tzus include a distinctive pushed-in face, a luxurious double coat, and a friendly, dignified expression.",
-                "Shih Tzus require regular grooming due to their long, flowing coat. Daily brushing and periodic baths are essential to keep their coat in good condition."
-            ]
-        },
-        {
-            "tag": "askal",
-            "patterns": [
-                "Tell me more about Askals.",
-                "What are the characteristics of Askals?",
-                "Are Askals good family pets?"
-            ],
-            "responses": [
-                "Askals are Philippine street dogs known for their resilience and adaptability. They are often a mix of various breeds, making each one unique.",
-                "Characteristic features of Askals can vary, but they are generally medium-sized with a short coat. They are known for their loyalty and intelligence.",
-                "Askals can make excellent family pets. They are known for their loyalty and often form strong bonds with their owners."
-            ]
-        },
-        {
-            "tag": "philippine_native_dog",
-            "patterns": [
-                "Tell me more about Philippine native dogs.",
-                "What are the characteristics of native dogs in the Philippines?",
-                "Any special considerations for caring for a native dog?"
-            ],
-            "responses": [
-                "Philippine native dogs are indigenous breeds that have adapted to the local environment over time. They come in various sizes and coat types.",
-                "Characteristic features of native dogs in the Philippines include a sturdy build and a coat suitable for the climate. They are often well-suited to the local conditions.",
-                "Caring for a Philippine native dog involves regular exercise, a balanced diet, and attention to their specific coat needs based on the climate in the region."
+                "Coughing in dogs can be caused by a variety of conditions, including respiratory infections, allergies, heart disease, tracheal collapse, or foreign items stuck in the airway. It is critical to identify the underlying reason in order to give proper treatment.",
+                "You can try to keep your dog relaxed and stress-free while avoiding potential irritants like cigarette smoke or harsh chemical odors. You can also try using a humidifier to wet the air and ease your dog's throat.",
+                "If your dog continues to cough, or if you detect any other unusual symptoms such as difficulty breathing, lethargy, or loss of appetite, take them to the vet for a full checkup. Persistent coughing could suggest an underlying health problem that necessitates veterinary treatment"
             ]
         },
         {
@@ -287,7 +1012,7 @@
                 "Characteristic features of Aspins can vary widely, as they are mixed-breed dogs. They may have unique combinations of coat colors, sizes, and physical traits.",
                 "When adopting an Aspin, consider their individual needs, provide regular veterinary care, and ensure they receive proper nutrition and exercise."
             ]
-        },
+        },   
         {
             "tag": "pet_owner_concerns",
             "patterns": [
@@ -307,10 +1032,18 @@
             "tag": "lethargy",
             "patterns": [
                 "Dog seems lethargic. Why?",
+                "Dog seems lethargic Why?",
+                "Dog seems lethargic Why",
+                "Dog seems lethargic why?",
+                "Dog seems tired. Why?",
+                "Dog seems tired Why?",
+                "Dog seems tired Why",
+                "Dog seems tired why?",
                 "Is fatigue normal in dogs?",
                 "Why is my dog so tired?",
                 "I think my dog might have a fever; he's shivering and feels warm.",
-                "Dizzy or tired?"
+                "Dizzy or tired?",
+                "Fatigue"
             ],
             "responses": [
                 "Lethargy can have various causes. It's advisable to consult with a veterinarian for a proper examination. In the meantime, ensure your dog has a comfortable and quiet resting place.",
@@ -323,9 +1056,13 @@
             "tag": "inappetance",
             "patterns": [
                 "Dog not eating. Why?",
+                "My dog is not eating",
+                "my dog not eating why?",
+                "My dog is not eating, Why?",
                 "Lack of appetite in dogs?",
                 "How to address inappetance?",
-                "No appetite in my dog?"
+                "No appetite in my dog?",
+                "Lack of appetite"
             ],
             "responses": [
                 "Inappetance in dogs can be caused by various factors. It's essential to consult with a vet to determine the underlying cause. In the meantime, monitor your dog's water intake and consider offering a bland diet.",
@@ -340,6 +1077,34 @@
                 "Dog has a fever. What to do?",
                 "Shivering in dogs. Concerning?",
                 "Symptoms of pyrexia in dogs?",
+                "why my dog temperature is high",
+                "why my dog temperature high?",
+                "High temperature in my dog?"
+                
+            ],
+            "responses": [
+                "Elevated temperature in dogs may indicate an underlying issue. Consult with a veterinarian promptly. Keep your dog comfortable, and avoid excessive physical activity.",
+                "Shivering, along with a fever, can be indicative of various conditions. Seek professional advice from a vet. Provide a warm and quiet place for your dog to rest.",
+                "Pyrexia or fever may have multiple causes. Consult with a vet for a proper diagnosis. Monitor your dog's temperature and ensure they stay well-hydrated.",
+                "An elevated temperature warrants attention. Consult with a vet to determine the cause. Keep your dog cool, provide access to water, and avoid strenuous activities."
+            ]
+        },
+        {
+            "tag": "fever solution",
+            "patterns": [
+                "My dog has a fever, what should i do?",
+                "my dog has a fever what should i do?",
+                "my dog has fever what should i do?",
+                "dog fever",
+                "fever dog",
+                "Dog fever",
+                "fever",
+                "Fever",
+                "Shivering in dogs. Concerning?",
+                "why my dog is so hot",
+                "Symptoms of pyrexia in dogs?",
+                "why my dog temperature is high",
+                "why my dog temperature high?",
                 "High temperature in my dog?"
             ],
             "responses": [
@@ -353,6 +1118,16 @@
             "tag": "pale_gums",
             "patterns": [
                 "Pale gums in dogs. Problem?",
+                "my dog has a pale gums",
+                "pale gums in dogs",
+                "pale gums in dog",
+                "pale gums",
+                "my dog has pale gums",
+                "dog pale gums",
+                "why my dog has pale gums?",
+                "why is my dog has a pale gums?",
+                "my dog has a pale gums why?",
+                "my dog has a pale gums, why?",
                 "Oral health issues in dogs?",
                 "Leukoplakia in dogs?",
                 "Any issues with mouth or teeth?"
@@ -368,6 +1143,15 @@
             "tag": "nose_bleed",
             "patterns": [
                 "Dog nosebleed. Cause?",
+                "why my dog has nosebleed?",
+                "why my dog is nosebleed?",
+                "why my dog nosebleed?",
+                "why my dog has a nosebleed?",
+                "dog nosebleed",
+                "nosebleed",
+                "nosebleed in dogs",
+                "nosebleed in dog",
+                "my dog has nosebleed",
                 "Should I worry about bleeding?",
                 "Nose bleed in dogs common?",
                 "Any issues with bleeding?"
@@ -383,9 +1167,20 @@
             "tag": "eyes_issues",
             "patterns": [
                 "Cloudy eyes in dogs. Why?",
-                "Dog's blurred vision. Help?",
+                "cloudy eyes in dogs",
+                "cloudy eyes in dog",
+                "cloudy eye in dogs",
+                "cloudy eyes",
+                "my dog has cloudy eyes",
+                "why my dog has a cloudy eyes?",
+                "why my dog has cloudy eyes?",
                 "Hazy eyes in dogs?",
-                "Faggy or blurred vision?"
+                "hazy eyes in dogs, why?",
+                "my dog has hazy eyes",
+                "hazy eyes",
+                "Faggy or blurred vision?",
+                "Dog's blurred vision. Help?"
+
             ],
             "responses": [
                 "Cloudy eyes may indicate an underlying issue. Consult with a vet for a thorough eye examination. Ensure a clean environment and avoid exposing your dog to potential eye irritants.",
@@ -398,6 +1193,10 @@
             "tag": "bruise",
             "patterns": [
                 "Dog bruising. Serious?",
+                "dog bruising",
+                "bruise dog",
+                "dog bruise",
+                "dog bruising why?",
                 "Causes of bruising in dogs?",
                 "How to treat dog bruises?",
                 "Any concerns with bruises?"
@@ -414,18 +1213,65 @@
             "patterns": [
                 "Dog panting. Normal?",
                 "Wheezing in dogs. Concerns?",
-                "Breathing problems in dogs?"
+                "Breathing problems in dogs?",
+                "Cause of panting",
+                "Causing of panting",
+                "How to prevent of panting?"
             ],
             "responses": [
-                "While panting is normal, excessive panting may signal an issue. Consult with a vet to rule out underlying problems. Keep your dog cool, hydrated, and avoid strenuous activities.",
+                "Ensure your dog stays cool and hydrated, avoid strenuous activity in hot weather, and maintain a stress-free environment. If panting persists, consult your vet for further guidance.",
                 "Persistent wheezing should be evaluated by a vet. Avoid exposure to irritants and consult with a professional for a thorough examination. Ensure a calm environment for your dog.",
-                "Any signs of breathing difficulties require prompt attention."
+                "Any signs of breathing difficulties require prompt attention.",
+                " Excessive panting in dogs can be caused by various factors, including heat, stress, pain, respiratory problems, or underlying medical conditions such as heart disease or hormonal imbalances. It's essential to monitor his behavior and environment closely to determine the cause. If the panting persists or if you notice any other concerning symptoms, it's best to consult with your veterinarian for a proper evaluation and treatment plan."
+                
             ]
         },
         {
             "tag": "IntestinalParasitism",
             "patterns": [
               "My dog has diarrhea and seems to be pooping frequently.",
+              "My dog is tired, wet poop, vomiting, pale gums, worms on stool, loss appetite and bloated",
+              "My dog is wet poop, tired, vomiting, pale gums, worms on stool, loss appetite and bloated",
+              "My dog is vomiting, wet poop, tired, pale gums, worms on stool, loss appetite and bloated",
+              "My dog is pale gums, tired, wet poop, vomiting, worms on stool, loss appetite and bloated",
+              "My dog is worms on stool, tired, wet poop, vomiting, pale gums, loss appetite and bloated",
+              "My dog is loss appetite, tired, wet poop, vomiting, pale gums, worms on stool and bloated",
+              "My dog is bloated, tired, wet poop, vomiting, pale gums, worms on stool and loss appetite",
+              "My dog is bloated, wet poop, tired and vomiting",
+              "My dog is tired, diarrhea, vomiting and bloated",
+              "My dog is diarrhea, tired, vomiting, and bloated",
+              "My dog is vomiting, tired, diarrhea and bloated",
+              "My dog is tired, poop wet, vomiting and bloated",
+              "My dog is poop wet, tired, vomiting and bloated",
+              "My dog is vomiting, tired, poop wet and bloated",
+              "My dog is bloated, tired, poop wet and vomiting",
+              "tired, wet poop, vomiting and bloated",
+              "wet poop, tired, vomiting and bloated",
+              "vomiting, wet poop, tired and bloated",
+              "bloated, wet poop, tired and vomiting",
+              "tired wet poop vomiting and bloated",
+              "wet poop tired vomiting and bloated",
+              "vomiting wet poop tired and bloated",
+              "bloated wet poop tired and vomiting",
+              "tired wet poop vomiting bloated",
+              "wet poop tired vomiting bloated",
+              "vomiting wet poop tired bloated",
+              "bloated wet poop tired vomiting",
+              "tired, diarrhea, vomiting, and bloated",
+              "diarrhea, tired, vomiting, and bloated",
+              "vomiting, tired, diarrhea, and bloated",
+              "bloated, tired, diarrhea, and vomiting",
+              "tired diarrhea vomiting and bloated",
+              "diarrhea tired vomiting and bloated",
+              "vomiting tired diarrhea and bloated",
+              "bloated tired diarrhea and vomiting",
+              "tired diarrhea vomiting bloated",
+              "diarrhea tired vomiting bloated",
+              "vomiting tired diarrhea bloated",
+              "bloated tired diarrhea vomiting",
+              "tired, poop wet, vomiting, and bloated",
+              "tired poop wet vomiting and bloated",
+              "tired poop wet vomiting bloated",
               "I've noticed lethargy and tiredness in my dog. Could it be related to something?",
               "My dog has a lack of appetite and doesn't seem interested in food.",
               "I'm concerned about pale gums and changes in my dog's oral health.",
@@ -504,7 +1350,8 @@
               "My dog has inflamed eyelids and watery eyes. What might be the problem?",
               "Dog has cloudy eyes and hazy vision. Any ideas?",
               "My dog's eyes seem reddish and irritated. Concerning?",
-              "Dog has inflamed eyelids and watery eyes. What's the problem?"
+              "Dog has inflamed eyelids and watery eyes. What's the problem?",
+              "Eye ulcer"
             ],
             "responses": [
               "Your dog may be experiencing eye ulceration and cloudiness. It's crucial to protect their eyes to prevent rubbing or scratching. Consider using a cone, like an Elizabethan collar. Eye problems can escalate quickly, so it's important to take your dog to the vet as soon as possible. Postponing medical intervention may lead to further complications and worsen the condition.",
