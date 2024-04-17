@@ -24,7 +24,11 @@
         {% for vet in vets_list %}
         <div class="vets-list">
           <div class="vet-img-container">
-            <img src="{{ vet.profile_picture.url }}" alt="Profile Picture">
+            {% if vet.profile_picture.url %}
+              <img src="{{ vet.profile_picture.url }}" alt="Profile Picture">
+            {% else %}
+              <img src="{% static 'main/assets/vet_profile.png' %}">
+            {% endif %}
           </div>
           <div class="vets-info-container">
             <div class="phone"><strong>Phone: </strong>{{ vet.phone }}</div>
