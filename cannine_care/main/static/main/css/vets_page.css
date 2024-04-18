@@ -3,7 +3,7 @@
 }
 
 .main-vets-page{
-  background-color: #E1B0AC;
+  background-color: #001840;
   margin: auto;
   width: 80%;
   height: auto;
@@ -11,7 +11,7 @@
   margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  color: #A0006D;
+  color: #F5C400;
   overflow: auto;
 }
 
@@ -25,7 +25,7 @@
 
 .vets-feed-main-container{
   width: 80%;
-  background-color: #E6E6FA;
+  background-color: #FFFDF0;
   border-radius: 15px;
   margin: auto;
   color: #3A4D39;

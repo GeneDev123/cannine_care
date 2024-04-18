@@ -3,14 +3,14 @@
 }
 
 .ai-main-container{
-  background-color: #E1B0AC;
+  background-color: #001840;
   margin: auto;
   width: 80%;
   height: auto;
   margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  color: #A0006D;
+  /* color: #F5C400; */
 }
 
 #ai-config-page .ai-main-container .main-page-title{
@@ -22,14 +22,14 @@
 
 .config-main-container{
   width: 80%;
-  background-color: #E6E6FA;
+  background-color: #FFFDF0;
   border-radius: 15px;
   margin: auto;
   color: #3A4D39;
 }
 
 .main-page-instruction{
-  background-color: #E6E6FA;
+  background-color: #FFFDF0;
   margin: 20px 10%;
   padding: 20px;
   border-radius: 10px;
@@ -44,7 +44,7 @@
 }
 
 .model-information, .model-output, .model-files{
-  background-color: #E6E6FA;
+  background-color: #FFFDF0;
   min-width: 600px;
   height: 350px;
   border-radius: 10px;
@@ -59,9 +59,9 @@
 
 .model-information .train-ai-btn{
   text-align: center;
-  background-color:#A0006D;
+  background-color:#F5C400;
   border: none;
-  color:#E6E6FA;
+  color:#FFFDF0;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -74,8 +74,8 @@
 
 .model-information .train-ai-btn:hover{
   box-shadow: 2px 2px black;
-  background-color: #E6E6FA;
-  color:#A0006D;
+  background-color: #FFFDF0;
+  color:#F5C400;
 }
 
 .model-information .model-info{
@@ -95,7 +95,7 @@
 
 .model-files .chatbot-model-list .list{
   font-size: 12px;
-  background-color: #E6E6FA;
+  background-color: #FFFDF0;
   padding: 2px;
   max-height: 200px;
   overflow-y: auto;

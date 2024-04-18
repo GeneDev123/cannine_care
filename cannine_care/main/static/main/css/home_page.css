@@ -3,14 +3,14 @@
 }
 
 .chatbot-container{
-  background-color: #E1B0AC;
+  background-color: #001840;
   margin: auto;
   width: 80%;
   height: 800px;
   margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  color: #A0006D;
+  color: #F5C400;
 }
 
 #home-page .chatbot-container .container-title{
@@ -22,7 +22,7 @@
 
 .chatbot-message-main-container{
   width: 80%;
-  background-color: #E6E6FA;
+  background-color: #FFFDF0;
   border-radius: 15px;
   margin: auto;
   color: #3A4D39;
@@ -45,7 +45,7 @@
 
 .chatbot-bubble-container, .user-bubble-container{
   padding: 10px;
-  background-color: #F2D4D6;
+  background-color: #102A71;
   border-radius: 10px;
   margin: 10px 0px;
   box-shadow: 2px 2px black;
@@ -57,12 +57,12 @@
 
 .chatbot-name, .chatbot-message{
   text-align: left;
-  color: #A0006D;
+  color: #FFDC5F;
 }
 
 .user-name, .user-message{
   text-align: right;
-  color: #A0006D;
+  color: #FFDC5F;
 }
 
 .user-options-container #user-input-message-form{
